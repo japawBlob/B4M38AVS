@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Config" projectFiles="true">
+        <itemPath>../inc/lwipopts.h</itemPath>
+        <itemPath>../inc/stm32f2x7_eth_conf.h</itemPath>
+        <itemPath>../inc/stm32f2xx_conf.h</itemPath>
+        <itemPath>../inc/system_conf.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="LwIP" projectFiles="true">
+        <logicalFolder name="f1" displayName="core" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/api.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/api_msg.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/arch.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/debug.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/def.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/dhcp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/dns.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/err.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/init.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/mem.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/memp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/memp_std.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netbuf.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netdb.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netif.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netifapi.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/opt.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/pbuf.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/raw.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/sio.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp_asn1.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp_msg.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp_structs.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/sockets.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/stats.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/sys.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/tcp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/tcp_impl.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/tcpip.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/timers.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/udp.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="ipv4" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/autoip.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/icmp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/igmp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/inet.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/inet_chksum.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/ip.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/ip_addr.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/ip_frag.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="netif" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/bpstruct.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/cc.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/cpu.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/epstruct.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/netif/etharp.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/Standalone/ethernetif.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/init.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/lib.h</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/perf.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="SCKIT_EVAL" projectFiles="true">
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/fonts.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval_eth.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/stm32_eval.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_sdio_sd.h</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="STM32F2xx" projectFiles="true">
+        <logicalFolder name="f3" displayName="CMSYS" projectFiles="true">
+          <itemPath>../../../../Libraries/CMSIS/Include/core_cm3.h</itemPath>
+          <itemPath>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h</itemPath>
+          <itemPath>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/system_stm32f2xx.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="ETH_Driver" projectFiles="true">
+          <itemPath>../../../../Libraries/STM32F2x7_ETH_Driver/inc/stm32f2x7_eth.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="StdPeriph_Driver" projectFiles="true">
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="System" projectFiles="true">
+        <itemPath>../../../../Utilities/Third_Party/System/crc16.h</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/sckit_debug.h</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/serial_driver.h</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/stm32fxxx_uid.h</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/syscalls.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="User" projectFiles="true">
+        <itemPath>../inc/fs.h</itemPath>
+        <itemPath>../inc/fsdata.h</itemPath>
+        <itemPath>../inc/main.h</itemPath>
+        <itemPath>../inc/netconf.h</itemPath>
+        <itemPath>../inc/stm32f2x7_eth_bsp.h</itemPath>
+        <itemPath>../inc/stm32f2xx_it.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="LwIP" projectFiles="true">
+        <logicalFolder name="f1" displayName="api" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/api_lib.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/api_msg.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/err.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/netbuf.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/netdb.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/netifapi.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/sockets.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/api/tcpip.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="core" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/def.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/dhcp.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/dns.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/init.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/mem.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/memp.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/netif.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/pbuf.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/raw.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/stats.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/sys.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/tcp.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/tcp_in.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/tcp_out.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/timers.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/udp.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f3" displayName="ipv4" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/autoip.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/icmp.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/igmp.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/inet.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/inet_chksum.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/ip.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/ip_addr.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/ip_frag.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f4" displayName="netif" projectFiles="true">
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/src/netif/etharp.c</itemPath>
+          <itemPath>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/Standalone/ethernetif.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="SCKIT_EVAL" projectFiles="true">
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval_eth.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/stm32_eval.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_sdio_sd.c</itemPath>
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="STM32F2xx" projectFiles="true">
+        <logicalFolder name="f3" displayName="CMSYS" projectFiles="true">
+          <itemPath>startup_stm32f2xx.s</itemPath>
+          <itemPath>../src/system_stm32f2xx.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="ETH_Driver" projectFiles="true">
+          <itemPath>../../../../Libraries/STM32F2x7_ETH_Driver/src/stm32f2x7_eth.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="StdPeriph_Driver" projectFiles="true">
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/misc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_adc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_can.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dac.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_exti.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_flash.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_fsmc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_sdio.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_syscfg.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_tim.c</itemPath>
+          <itemPath>../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="System" projectFiles="true">
+        <itemPath>../../../../Utilities/Third_Party/System/crc16.c</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/sckit_debug.c</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/serial_driver.c</itemPath>
+        <itemPath>../../../../Utilities/Third_Party/System/syscalls.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="User" projectFiles="true">
+        <itemPath>../src/fs.c</itemPath>
+        <itemPath>../src/httpd.c</itemPath>
+        <itemPath>../src/httpd_cgi_ssi.c</itemPath>
+        <itemPath>../src/main.c</itemPath>
+        <itemPath>../src/netconf.c</itemPath>
+        <itemPath>../src/stm32f2x7_eth_bsp.c</itemPath>
+        <itemPath>../src/stm32f2xx_it.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>openocd-board.cfg</itemPath>
+      <itemPath>stm32_flash.ld</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="SC-KIT" type="1">
+      <toolsSet>
+        <compilerSet>CodeSourceryARM|CodeSourceryARM</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../inc</pElem>
+            <pElem>../../../../Libraries/CMSIS/Include</pElem>
+            <pElem>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc</pElem>
+            <pElem>../../../../Libraries/STM32F2x7_ETH_Driver/inc</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/Common</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/SCKIT_EVAL</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/src/include</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/Standalone</pElem>
+            <pElem>../../../../Utilities/Third_Party/System</pElem>
+          </incDir>
+          <commandLine>-mthumb -mcpu=cortex-m3 -ggdb -Wextra -ffunction-sections -fdata-sections -O1</commandLine>
+          <preprocessorList>
+            <Elem>STM32F2XX</Elem>
+            <Elem>USE_SCKIT_EVAL</Elem>
+            <Elem>USE_STDPERIPH_DRIVER</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>../inc</pElem>
+            <pElem>../../../../Libraries/CMSIS/Include</pElem>
+            <pElem>../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include</pElem>
+            <pElem>../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc</pElem>
+            <pElem>../../../../Libraries/STM32F2x7_ETH_Driver/inc</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/Common</pElem>
+            <pElem>../../../../Utilities/STM32_EVAL/SCKIT_EVAL</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/src/include</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7</pElem>
+            <pElem>../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/FreeRTOS</pElem>
+            <pElem>../../../../Utilities/Third_Party/FreeRTOS_v7.4.0/portable/GCC/ARM_CM3</pElem>
+            <pElem>../../../../Utilities/Third_Party/FreeRTOS_v7.4.0/include</pElem>
+            <pElem>../../../../Utilities/Third_Party/System</pElem>
+          </incDir>
+          <commandLine>-mthumb -mcpu=cortex-m3 -ggdb -Wextra -ffunction-sections -fdata-sections -O1</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <asmTool>
+          <developmentMode>0</developmentMode>
+          <warningLevel>2</warningLevel>
+          <commandLine>-c -mthumb -mcpu=cortex-m3 -g3 -Wa,--warn -x assembler-with-cpp</commandLine>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/Application.elf</output>
+          <commandLine>-mthumb -mcpu=cortex-m3 -Tstm32_flash.ld -Wl,-Map=${CND_DISTDIR}/${CND_CONF}/Application.map -Wl,--gc-sections</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/system_stm32f2xx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/CMSIS/Include/core_cm3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2x7_ETH_Driver/inc/stm32f2x7_eth.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2x7_ETH_Driver/src/stm32f2x7_eth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_adc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_can.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_crc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_cryp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dbgmcu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dcmi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_dma.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_exti.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_flash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_fsmc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_hash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_i2c.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_iwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_tim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_usart.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/misc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_can.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_fsmc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_sdio.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_syscfg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/fonts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_sdio_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_sdio_sd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval_eth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval_eth.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/stm32_eval.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/stm32_eval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/crc16.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/crc16.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/sckit_debug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/sckit_debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/serial_driver.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/serial_driver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/stm32fxxx_uid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/syscalls.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/System/syscalls.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/Standalone/ethernetif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/Standalone/ethernetif.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/bpstruct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/cc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/cpu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/epstruct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/init.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/lib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/port/STM32F2x7/arch/perf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/api_lib.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/api_msg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/err.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/netbuf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/netdb.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/netifapi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/sockets.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/api/tcpip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/def.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/dhcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/dns.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/init.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/autoip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/icmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/igmp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/inet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/inet_chksum.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/ip.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/ip_addr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/ipv4/ip_frag.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/mem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/memp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/netif.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/pbuf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/raw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/stats.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/sys.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/tcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/tcp_in.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/tcp_out.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/timers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/core/udp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/autoip.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/icmp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/igmp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/inet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/inet_chksum.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/ip.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/ip_addr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/ipv4/lwip/ip_frag.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/api.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/api_msg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/arch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/def.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/dhcp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/dns.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/err.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/init.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/mem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/memp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/memp_std.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netbuf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netdb.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netif.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/netifapi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/opt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/pbuf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/raw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/sio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp_asn1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp_msg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/snmp_structs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/sockets.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/stats.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/sys.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/tcp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/tcp_impl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/tcpip.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/timers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/lwip/udp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/include/netif/etharp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/Third_Party/lwip-1.4.0/src/netif/etharp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../inc/fs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/fsdata.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/lwipopts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/netconf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/stm32f2x7_eth_bsp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/stm32f2x7_eth_conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/stm32f2xx_conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/stm32f2xx_it.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/system_conf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../src/fs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/httpd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/httpd_cgi_ssi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/netconf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/stm32f2x7_eth_bsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/stm32f2xx_it.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/system_stm32f2xx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="startup_stm32f2xx.s" ex="false" tool="4" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

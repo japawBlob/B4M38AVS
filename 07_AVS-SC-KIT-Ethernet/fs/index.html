@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Sleepy Cat DEMO</title>
+<style>
+body, html { margin: 0; padding: 0; font-family: Verdana, "Geneva CE", lucida, sans-serif; }
+body {background: #E0E0E0; color: #444; text-align: center; }
+#page {background: white; position:relative; margin: 0 auto 20px; padding: 1em 1em; width: 770px; text-align: left; height: 100%; }
+h1, h2, h3 { text-indent: 0px; margin: 1.2em 0 0.7em; color: #2E5792; }
+h1 { font-size: 185%; font-weight: normal; }
+h2 { font-size: 150%; font-weight: bold; }
+h3 { font-size: 120%; color: black; }
+a { color: #0334D4; }
+a:visited { color: #5C6891; }
+a.active { background-color: #87A0E9; text-decoration: none; padding: 1px; color: white; }
+a:hover { background-color: #0334D4; text-decoration: none; color: white; }
+img {margin: 3px 3px -6px 3px;}
+.b {padding: 0.5em; margin: 0.2em; float: left; color:white; background-color: gray;}
+</style>
+
+<script>
+var $ = function(id){return document.getElementById(id);};
+ 
+function l(u,f){
+	var h;
+	if(window.XMLHttpRequest){h=new XMLHttpRequest();}else{h=new ActiveXObject("Microsoft.XMLHTTP");}
+	h.onreadystatechange=function(){if(h.readyState==4 && h.status==200){f(h.responseText);}}
+	h.open("GET",u,true);
+	h.send();
+	$("MyText").value = "blalba";
+}
+
+function s(txt) {
+	var obj = eval ("(" + txt + ")");
+	$("b1").style.backgroundColor=obj.btn[0]==1?"red":"green";
+	$("b2").style.backgroundColor=obj.btn[1]==1?"red":"green";
+}
+
+l("data.json", s);
+setInterval(function(){l("data.json", s)},500);
+</script>
+
+</head>
+<body>
+<div id="page">
+<h1><b>Sleepy Cat Kit</b><br>Platforma pro výuku mikroprocesorové techniky</h1>
+
+<p>Funguje to!</p>
+
+<div style="background-color: green;" id="b1" class="b">BTN2</div>
+<div style="background-color: green;" id="b2" class="b">BTN1</div>
+<br clear="all">
+
+<form action="data.json">
+Text k zaslání na LCD: <input type=text size=22 name="lcdtext">
+   <input type=submit value=odeslat>
+</form>
+
+</div>
+
+</body></html>
