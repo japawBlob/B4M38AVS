@@ -1166,7 +1166,7 @@ LOAD /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/
                 0x08000000                g_pfnVectors
                 0x08000184                . = ALIGN (0x4)
 
-.text           0x08000184     0x4524
+.text           0x08000184     0x46bc
                 0x08000184                . = ALIGN (0x4)
  *(.text)
  .text          0x08000184       0x54 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
@@ -1310,347 +1310,350 @@ LOAD /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/
                 0x0800276c       0xb0 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
                 0x0800276c                init_usart
  .text.init_timer_TIM2
-                0x0800281c       0x60 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x0800281c       0x58 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
                 0x0800281c                init_timer_TIM2
  .text.init_keyboard
-                0x0800287c       0xfc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                0x0800287c                init_keyboard
+                0x08002874       0xfc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x08002874                init_keyboard
  .text.init_LEDs
-                0x08002978       0x38 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                0x08002978                init_LEDs
- .text.main     0x080029b0       0xb0 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                0x080029b0                main
+                0x08002970       0x38 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x08002970                init_LEDs
+ .text.main     0x080029a8       0xd8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x080029a8                main
  .text.updateLEDs
-                0x08002a60       0x58 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                0x08002a60                updateLEDs
+                0x08002a80       0x58 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x08002a80                updateLEDs
  .text.printChar
-                0x08002ab8       0x74 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                0x08002ab8                printChar
+                0x08002ad8       0x8c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x08002ad8                printChar
  .text.keyboardHandler
-                0x08002b2c      0x27c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                0x08002b2c                keyboardHandler
- .text.halt     0x08002da8        0x8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002b64      0x2b4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x08002b64                keyboardHandler
+ .text.waitForRelease
+                0x08002e18       0x88 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x08002e18                waitForRelease
+ .text.halt     0x08002ea0        0x8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
  .text.NMI_Handler
-                0x08002db0        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002db0                NMI_Handler
+                0x08002ea8        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002ea8                NMI_Handler
  .text.HardFault_Handler
-                0x08002dbc       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002dbc                HardFault_Handler
+                0x08002eb4       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002eb4                HardFault_Handler
  .text.MemManage_Handler
-                0x08002ddc       0x1c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002ddc                MemManage_Handler
+                0x08002ed4       0x1c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002ed4                MemManage_Handler
  .text.BusFault_Handler
-                0x08002df8       0x1c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002df8                BusFault_Handler
+                0x08002ef0       0x1c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002ef0                BusFault_Handler
  .text.UsageFault_Handler
-                0x08002e14       0x1c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002e14                UsageFault_Handler
+                0x08002f0c       0x1c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002f0c                UsageFault_Handler
  .text.SVC_Handler
-                0x08002e30        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002e30                SVC_Handler
+                0x08002f28        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002f28                SVC_Handler
  .text.DebugMon_Handler
-                0x08002e3c        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002e3c                DebugMon_Handler
+                0x08002f34        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002f34                DebugMon_Handler
  .text.PendSV_Handler
-                0x08002e48        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002e48                PendSV_Handler
+                0x08002f40        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002f40                PendSV_Handler
  .text.SysTick_Handler
-                0x08002e54        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002e54                SysTick_Handler
+                0x08002f4c        0xc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002f4c                SysTick_Handler
  .text.EXTI15_10_IRQHandler
-                0x08002e60       0x34 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
-                0x08002e60                EXTI15_10_IRQHandler
+                0x08002f58       0x34 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x08002f58                EXTI15_10_IRQHandler
  .text.SystemInit
-                0x08002e94       0x5c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
-                0x08002e94                SystemInit
+                0x08002f8c       0x5c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+                0x08002f8c                SystemInit
  .text.SystemCoreClockUpdate
-                0x08002ef0       0xf8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
-                0x08002ef0                SystemCoreClockUpdate
+                0x08002fe8       0xf8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+                0x08002fe8                SystemCoreClockUpdate
  .text.SetSysClock
-                0x08002fe8       0xd8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+                0x080030e0       0xd8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
  .text.Reset_Handler
-                0x080030c0       0x50 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
-                0x080030c0                Reset_Handler
+                0x080031b8       0x50 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+                0x080031b8                Reset_Handler
  .text.Default_Handler
-                0x08003110        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
-                0x08003110                RTC_Alarm_IRQHandler
-                0x08003110                HASH_RNG_IRQHandler
-                0x08003110                EXTI2_IRQHandler
-                0x08003110                TIM8_CC_IRQHandler
-                0x08003110                TIM1_CC_IRQHandler
-                0x08003110                DMA2_Stream5_IRQHandler
-                0x08003110                DMA1_Stream5_IRQHandler
-                0x08003110                PVD_IRQHandler
-                0x08003110                SDIO_IRQHandler
-                0x08003110                TAMP_STAMP_IRQHandler
-                0x08003110                CAN2_RX1_IRQHandler
-                0x08003110                EXTI3_IRQHandler
-                0x08003110                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08003110                TIM1_UP_TIM10_IRQHandler
-                0x08003110                TIM8_UP_TIM13_IRQHandler
-                0x08003110                I2C3_ER_IRQHandler
-                0x08003110                EXTI0_IRQHandler
-                0x08003110                I2C2_EV_IRQHandler
-                0x08003110                DMA1_Stream2_IRQHandler
-                0x08003110                CAN1_RX0_IRQHandler
-                0x08003110                OTG_HS_WKUP_IRQHandler
-                0x08003110                CAN2_SCE_IRQHandler
-                0x08003110                DMA2_Stream2_IRQHandler
-                0x08003110                SPI1_IRQHandler
-                0x08003110                TIM6_DAC_IRQHandler
-                0x08003110                TIM1_BRK_TIM9_IRQHandler
-                0x08003110                DCMI_IRQHandler
-                0x08003110                CAN2_RX0_IRQHandler
-                0x08003110                DMA2_Stream3_IRQHandler
-                0x08003110                USART6_IRQHandler
-                0x08003110                USART3_IRQHandler
-                0x08003110                CRYP_IRQHandler
-                0x08003110                CAN1_RX1_IRQHandler
-                0x08003110                UART5_IRQHandler
-                0x08003110                DMA2_Stream0_IRQHandler
-                0x08003110                TIM4_IRQHandler
-                0x08003110                I2C1_EV_IRQHandler
-                0x08003110                DMA1_Stream6_IRQHandler
-                0x08003110                DMA1_Stream1_IRQHandler
-                0x08003110                UART4_IRQHandler
-                0x08003110                TIM3_IRQHandler
-                0x08003110                RCC_IRQHandler
-                0x08003110                TIM8_BRK_TIM12_IRQHandler
-                0x08003110                Default_Handler
-                0x08003110                ADC_IRQHandler
-                0x08003110                DMA1_Stream7_IRQHandler
-                0x08003110                TIM7_IRQHandler
-                0x08003110                CAN2_TX_IRQHandler
-                0x08003110                TIM5_IRQHandler
-                0x08003110                DMA2_Stream7_IRQHandler
-                0x08003110                I2C3_EV_IRQHandler
-                0x08003110                EXTI9_5_IRQHandler
-                0x08003110                RTC_WKUP_IRQHandler
-                0x08003110                ETH_WKUP_IRQHandler
-                0x08003110                SPI2_IRQHandler
-                0x08003110                OTG_HS_EP1_IN_IRQHandler
-                0x08003110                DMA1_Stream0_IRQHandler
-                0x08003110                CAN1_TX_IRQHandler
-                0x08003110                EXTI4_IRQHandler
-                0x08003110                FSMC_IRQHandler
-                0x08003110                ETH_IRQHandler
-                0x08003110                OTG_HS_EP1_OUT_IRQHandler
-                0x08003110                WWDG_IRQHandler
-                0x08003110                TIM2_IRQHandler
-                0x08003110                OTG_FS_WKUP_IRQHandler
-                0x08003110                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08003110                OTG_HS_IRQHandler
-                0x08003110                EXTI1_IRQHandler
-                0x08003110                USART2_IRQHandler
-                0x08003110                I2C2_ER_IRQHandler
-                0x08003110                DMA2_Stream1_IRQHandler
-                0x08003110                CAN1_SCE_IRQHandler
-                0x08003110                FLASH_IRQHandler
-                0x08003110                DMA2_Stream4_IRQHandler
-                0x08003110                USART1_IRQHandler
-                0x08003110                OTG_FS_IRQHandler
-                0x08003110                SPI3_IRQHandler
-                0x08003110                DMA1_Stream4_IRQHandler
-                0x08003110                I2C1_ER_IRQHandler
-                0x08003110                DMA2_Stream6_IRQHandler
-                0x08003110                DMA1_Stream3_IRQHandler
+                0x08003208        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+                0x08003208                RTC_Alarm_IRQHandler
+                0x08003208                HASH_RNG_IRQHandler
+                0x08003208                EXTI2_IRQHandler
+                0x08003208                TIM8_CC_IRQHandler
+                0x08003208                TIM1_CC_IRQHandler
+                0x08003208                DMA2_Stream5_IRQHandler
+                0x08003208                DMA1_Stream5_IRQHandler
+                0x08003208                PVD_IRQHandler
+                0x08003208                SDIO_IRQHandler
+                0x08003208                TAMP_STAMP_IRQHandler
+                0x08003208                CAN2_RX1_IRQHandler
+                0x08003208                EXTI3_IRQHandler
+                0x08003208                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08003208                TIM1_UP_TIM10_IRQHandler
+                0x08003208                TIM8_UP_TIM13_IRQHandler
+                0x08003208                I2C3_ER_IRQHandler
+                0x08003208                EXTI0_IRQHandler
+                0x08003208                I2C2_EV_IRQHandler
+                0x08003208                DMA1_Stream2_IRQHandler
+                0x08003208                CAN1_RX0_IRQHandler
+                0x08003208                OTG_HS_WKUP_IRQHandler
+                0x08003208                CAN2_SCE_IRQHandler
+                0x08003208                DMA2_Stream2_IRQHandler
+                0x08003208                SPI1_IRQHandler
+                0x08003208                TIM6_DAC_IRQHandler
+                0x08003208                TIM1_BRK_TIM9_IRQHandler
+                0x08003208                DCMI_IRQHandler
+                0x08003208                CAN2_RX0_IRQHandler
+                0x08003208                DMA2_Stream3_IRQHandler
+                0x08003208                USART6_IRQHandler
+                0x08003208                USART3_IRQHandler
+                0x08003208                CRYP_IRQHandler
+                0x08003208                CAN1_RX1_IRQHandler
+                0x08003208                UART5_IRQHandler
+                0x08003208                DMA2_Stream0_IRQHandler
+                0x08003208                TIM4_IRQHandler
+                0x08003208                I2C1_EV_IRQHandler
+                0x08003208                DMA1_Stream6_IRQHandler
+                0x08003208                DMA1_Stream1_IRQHandler
+                0x08003208                UART4_IRQHandler
+                0x08003208                TIM3_IRQHandler
+                0x08003208                RCC_IRQHandler
+                0x08003208                TIM8_BRK_TIM12_IRQHandler
+                0x08003208                Default_Handler
+                0x08003208                ADC_IRQHandler
+                0x08003208                DMA1_Stream7_IRQHandler
+                0x08003208                TIM7_IRQHandler
+                0x08003208                CAN2_TX_IRQHandler
+                0x08003208                TIM5_IRQHandler
+                0x08003208                DMA2_Stream7_IRQHandler
+                0x08003208                I2C3_EV_IRQHandler
+                0x08003208                EXTI9_5_IRQHandler
+                0x08003208                RTC_WKUP_IRQHandler
+                0x08003208                ETH_WKUP_IRQHandler
+                0x08003208                SPI2_IRQHandler
+                0x08003208                OTG_HS_EP1_IN_IRQHandler
+                0x08003208                DMA1_Stream0_IRQHandler
+                0x08003208                CAN1_TX_IRQHandler
+                0x08003208                EXTI4_IRQHandler
+                0x08003208                FSMC_IRQHandler
+                0x08003208                ETH_IRQHandler
+                0x08003208                OTG_HS_EP1_OUT_IRQHandler
+                0x08003208                WWDG_IRQHandler
+                0x08003208                TIM2_IRQHandler
+                0x08003208                OTG_FS_WKUP_IRQHandler
+                0x08003208                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08003208                OTG_HS_IRQHandler
+                0x08003208                EXTI1_IRQHandler
+                0x08003208                USART2_IRQHandler
+                0x08003208                I2C2_ER_IRQHandler
+                0x08003208                DMA2_Stream1_IRQHandler
+                0x08003208                CAN1_SCE_IRQHandler
+                0x08003208                FLASH_IRQHandler
+                0x08003208                DMA2_Stream4_IRQHandler
+                0x08003208                USART1_IRQHandler
+                0x08003208                OTG_FS_IRQHandler
+                0x08003208                SPI3_IRQHandler
+                0x08003208                DMA1_Stream4_IRQHandler
+                0x08003208                I2C1_ER_IRQHandler
+                0x08003208                DMA2_Stream6_IRQHandler
+                0x08003208                DMA1_Stream3_IRQHandler
  .text.__libc_init_array
-                0x08003114       0x50 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
-                0x08003114                __libc_init_array
- .text.memset   0x08003164       0x94 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
-                0x08003164                memset
- .text.strlen   0x080031f8       0x60 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
-                0x080031f8                strlen
+                0x0800320c       0x50 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
+                0x0800320c                __libc_init_array
+ .text.memset   0x0800325c       0x94 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
+                0x0800325c                memset
+ .text.strlen   0x080032f0       0x60 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
+                0x080032f0                strlen
  .text.__swbuf_r
-                0x08003258       0xa8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wbuf.o)
-                0x08003258                __swbuf_r
+                0x08003350       0xa8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wbuf.o)
+                0x08003350                __swbuf_r
  .text.__swsetup_r
-                0x08003300       0xc4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wsetup.o)
-                0x08003300                __swsetup_r
+                0x080033f8       0xc4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wsetup.o)
+                0x080033f8                __swsetup_r
  .text.startup.register_fini
-                0x080033c4       0x14 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x080033d8        0xc /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
-                0x080033d8                atexit
+                0x080034bc       0x14 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080034d0        0xc /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
+                0x080034d0                atexit
  .text.__sflush_r
-                0x080033e4      0x148 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fflush.o)
-                0x080033e4                __sflush_r
+                0x080034dc      0x148 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fflush.o)
+                0x080034dc                __sflush_r
  .text._fflush_r
-                0x0800352c       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fflush.o)
-                0x0800352c                _fflush_r
+                0x08003624       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fflush.o)
+                0x08003624                _fflush_r
  .text._cleanup_r
-                0x08003558        0xc /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
-                0x08003558                _cleanup_r
- .text.__sinit  0x08003564       0xf4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
-                0x08003564                __sinit
+                0x08003650        0xc /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
+                0x08003650                _cleanup_r
+ .text.__sinit  0x0800365c       0xf4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
+                0x0800365c                __sinit
  .text.__sfp_lock_acquire
-                0x08003658        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
-                0x08003658                __sfp_lock_acquire
+                0x08003750        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
+                0x08003750                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0800365c        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
-                0x0800365c                __sfp_lock_release
+                0x08003754        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
+                0x08003754                __sfp_lock_release
  .text.__libc_fini_array
-                0x08003660       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
-                0x08003660                __libc_fini_array
+                0x08003758       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+                0x08003758                __libc_fini_array
  .text._malloc_trim_r
-                0x08003690       0x9c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-freer.o)
-                0x08003690                _malloc_trim_r
- .text._free_r  0x0800372c      0x198 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-freer.o)
-                0x0800372c                _free_r
- .text._fwalk   0x080038c4       0x48 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fwalk.o)
-                0x080038c4                _fwalk
+                0x08003788       0x9c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-freer.o)
+                0x08003788                _malloc_trim_r
+ .text._free_r  0x08003824      0x198 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-freer.o)
+                0x08003824                _free_r
+ .text._fwalk   0x080039bc       0x48 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fwalk.o)
+                0x080039bc                _fwalk
  .text.__smakebuf_r
-                0x0800390c       0xe0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-makebuf.o)
-                0x0800390c                __smakebuf_r
- .text.malloc   0x080039ec       0x10 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-malloc.o)
-                0x080039ec                malloc
+                0x08003a04       0xe0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-makebuf.o)
+                0x08003a04                __smakebuf_r
+ .text.malloc   0x08003ae4       0x10 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-malloc.o)
+                0x08003ae4                malloc
  .text._malloc_r
-                0x080039fc      0x538 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
-                0x080039fc                _malloc_r
+                0x08003af4      0x538 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
+                0x08003af4                _malloc_r
  .text.__malloc_lock
-                0x08003f34        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mlock.o)
-                0x08003f34                __malloc_lock
+                0x0800402c        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mlock.o)
+                0x0800402c                __malloc_lock
  .text.__malloc_unlock
-                0x08003f38        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mlock.o)
-                0x08003f38                __malloc_unlock
- .text._sbrk_r  0x08003f3c       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-sbrkr.o)
-                0x08003f3c                _sbrk_r
- .text.__sread  0x08003f60       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
-                0x08003f60                __sread
+                0x08004030        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mlock.o)
+                0x08004030                __malloc_unlock
+ .text._sbrk_r  0x08004034       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-sbrkr.o)
+                0x08004034                _sbrk_r
+ .text.__sread  0x08004058       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
+                0x08004058                __sread
  .text.__swrite
-                0x08003f84       0x38 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
-                0x08003f84                __swrite
- .text.__sseek  0x08003fbc       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
-                0x08003fbc                __sseek
+                0x0800407c       0x38 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
+                0x0800407c                __swrite
+ .text.__sseek  0x080040b4       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
+                0x080040b4                __sseek
  .text.__sclose
-                0x08003fe0        0x8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
-                0x08003fe0                __sclose
+                0x080040d8        0x8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
+                0x080040d8                __sclose
  .text._write_r
-                0x08003fe8       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-writer.o)
-                0x08003fe8                _write_r
+                0x080040e0       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-writer.o)
+                0x080040e0                _write_r
  .text.__register_exitproc
-                0x08004010       0xa8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
-                0x08004010                __register_exitproc
+                0x08004108       0xa8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
+                0x08004108                __register_exitproc
  .text._close_r
-                0x080040b8       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-closer.o)
-                0x080040b8                _close_r
+                0x080041b0       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-closer.o)
+                0x080041b0                _close_r
  .text._fclose_r
-                0x080040dc       0x80 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fclose.o)
-                0x080040dc                _fclose_r
- .text.fclose   0x0800415c       0x10 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fclose.o)
-                0x0800415c                fclose
+                0x080041d4       0x80 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fclose.o)
+                0x080041d4                _fclose_r
+ .text.fclose   0x08004254       0x10 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fclose.o)
+                0x08004254                fclose
  .text._fstat_r
-                0x0800416c       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fstatr.o)
-                0x0800416c                _fstat_r
+                0x08004264       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fstatr.o)
+                0x08004264                _fstat_r
  .text._isatty_r
-                0x08004194       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-isattyr.o)
-                0x08004194                _isatty_r
+                0x0800428c       0x24 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-isattyr.o)
+                0x0800428c                _isatty_r
  .text._lseek_r
-                0x080041b8       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-lseekr.o)
-                0x080041b8                _lseek_r
- .text._read_r  0x080041e0       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-readr.o)
-                0x080041e0                _read_r
+                0x080042b0       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-lseekr.o)
+                0x080042b0                _lseek_r
+ .text._read_r  0x080042d8       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-readr.o)
+                0x080042d8                _read_r
  *(.rodata)
- .rodata        0x08004208       0x3c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
- .rodata        0x08004244       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
- .rodata        0x0800428c       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
- .rodata        0x080042d4       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_rcc.o
- .rodata        0x0800431c       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_syscfg.o
- .rodata        0x08004364       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_tim.o
- .rodata        0x080043ac       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_usart.o
- .rodata        0x080043f4      0x1a4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
- .rodata        0x08004598       0x30 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .rodata        0x080045c8       0x34 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .rodata        0x080045fc       0x40 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .rodata        0x08004300       0x3c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
+ .rodata        0x0800433c       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
+ .rodata        0x08004384       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
+ .rodata        0x080043cc       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_rcc.o
+ .rodata        0x08004414       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_syscfg.o
+ .rodata        0x0800445c       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_tim.o
+ .rodata        0x080044a4       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_usart.o
+ .rodata        0x080044ec      0x1a4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
+ .rodata        0x08004690       0x30 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
+ .rodata        0x080046c0       0xd4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+ .rodata        0x08004794       0x40 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
  *(.rodata*)
  .rodata.GPIO_PIN
-                0x0800463c       0x10 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x0800463c                GPIO_PIN
+                0x080047d4       0x10 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x080047d4                GPIO_PIN
  .rodata.GPIO_CLK
-                0x0800464c       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x0800464c                GPIO_CLK
+                0x080047e4       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x080047e4                GPIO_CLK
  .rodata.BUTTON_PIN
-                0x0800466c        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x0800466c                BUTTON_PIN
+                0x08004804        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x08004804                BUTTON_PIN
  .rodata.BUTTON_CLK
-                0x08004670        0x8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x08004670                BUTTON_CLK
+                0x08004808        0x8 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x08004808                BUTTON_CLK
  .rodata.BUTTON_EXTI_LINE
-                0x08004678        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x08004678                BUTTON_EXTI_LINE
+                0x08004810        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x08004810                BUTTON_EXTI_LINE
  .rodata.BUTTON_PORT_SOURCE
-                0x0800467c        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x0800467c                BUTTON_PORT_SOURCE
+                0x08004814        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x08004814                BUTTON_PORT_SOURCE
  .rodata.BUTTON_PIN_SOURCE
-                0x08004680        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x08004680                BUTTON_PIN_SOURCE
+                0x08004818        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x08004818                BUTTON_PIN_SOURCE
  .rodata.BUTTON_IRQn
-                0x08004684        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
-                0x08004684                BUTTON_IRQn
+                0x0800481c        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1085738613/stm32_eval.o
+                0x0800481c                BUTTON_IRQn
  .rodata.str1.4
-                0x08004688        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x08004820        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x0800468c        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
-                0x0800468c                _global_impure_ptr
+                0x08004824        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-impure.o)
+                0x08004824                _global_impure_ptr
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08004690        0x0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .eh_frame      0x08004828        0x0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
  *(.init)
- .init          0x08004690        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
-                0x08004690                _init
- .init          0x08004694        0x8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .init          0x08004828        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x08004828                _init
+ .init          0x0800482c        0x8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
  *(.fini)
- .fini          0x0800469c        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
-                0x0800469c                _fini
- .fini          0x080046a0        0x8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
-                0x080046a8                . = ALIGN (0x4)
-                0x080046a8                _etext = .
+ .fini          0x08004834        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x08004834                _fini
+ .fini          0x08004838        0x8 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x08004840                . = ALIGN (0x4)
+                0x08004840                _etext = .
 
-.vfp11_veneer   0x080046a8        0x0
+.vfp11_veneer   0x08004840        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x080046a8        0x0
+.v4_bx          0x08004840        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x080046a8        0x0
+.iplt           0x08004840        0x0
  .iplt          0x00000000        0x0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.rel.dyn        0x080046a8        0x0
+.rel.dyn        0x08004840        0x0
  .rel.iplt      0x00000000        0x0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x080046a8        0x0
-                0x080046a8                __exidx_start = .
+.ARM            0x08004840        0x0
+                0x08004840                __exidx_start = .
  *(.ARM.exidx*)
-                0x080046a8                __exidx_end = .
+                0x08004840                __exidx_end = .
 
-.preinit_array  0x080046a8        0x0
-                0x080046a8                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08004840        0x0
+                0x08004840                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x080046a8                PROVIDE (__preinit_array_end, .)
+                0x08004840                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x080046a8        0x8
-                0x080046a8                PROVIDE (__init_array_start, .)
+.init_array     0x08004840        0x8
+                0x08004840                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x080046a8        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+                0x08004840        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x080046ac        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
-                0x080046b0                PROVIDE (__init_array_end, .)
+ .init_array    0x08004844        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x08004848                PROVIDE (__init_array_end, .)
 
-.fini_array     0x080046b0        0x4
-                0x080046b0                PROVIDE (__fini_array_start, .)
+.fini_array     0x08004848        0x4
+                0x08004848                PROVIDE (__fini_array_start, .)
  *(.fini_array*)
- .fini_array    0x080046b0        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .fini_array    0x08004848        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x080046b4                PROVIDE (__fini_array_end, .)
-                0x080046b4                _sidata = .
+                0x0800484c                PROVIDE (__fini_array_end, .)
+                0x0800484c                _sidata = .
 
-.data           0x20000000      0x894 load address 0x080046b4
+.data           0x20000000      0x894 load address 0x0800484c
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1696,14 +1699,14 @@ LOAD /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/
                 0x20000894                . = ALIGN (0x4)
                 0x20000894                _edata = .
 
-.jcr            0x20000894        0x0 load address 0x08004f48
+.jcr            0x20000894        0x0 load address 0x080050e0
  .jcr           0x20000894        0x0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.igot.plt       0x20000894        0x0 load address 0x08004f48
+.igot.plt       0x20000894        0x0 load address 0x080050e0
  .igot.plt      0x00000000        0x0 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
                 0x20000894                . = ALIGN (0x4)
 
-.bss            0x20001000     0x2048 load address 0x08006000
+.bss            0x20001000     0x203c load address 0x08006000
                 0x20001000                _sbss = .
                 0x20001000                __bss_start__ = _sbss
  *(.bss)
@@ -1713,36 +1716,33 @@ LOAD /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/
  .bss.my_heap   0x20002000     0x1000 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
  .bss.heap.9056
                 0x20003000        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .bss.a.8305    0x20003004        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .bss.b.8306    0x20003008        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .bss.c.8307    0x2000300c        0x4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
  .bss.__malloc_max_total_mem
-                0x20003010        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
-                0x20003010                __malloc_max_total_mem
+                0x20003004        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
+                0x20003004                __malloc_max_total_mem
  .bss.__malloc_max_sbrked_mem
-                0x20003014        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
-                0x20003014                __malloc_max_sbrked_mem
+                0x20003008        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
+                0x20003008                __malloc_max_sbrked_mem
  .bss.__malloc_top_pad
-                0x20003018        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
-                0x20003018                __malloc_top_pad
+                0x2000300c        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
+                0x2000300c                __malloc_top_pad
  .bss.__malloc_current_mallinfo
-                0x2000301c       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
-                0x2000301c                __malloc_current_mallinfo
+                0x20003010       0x28 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
+                0x20003010                __malloc_current_mallinfo
  *(COMMON)
- COMMON         0x20003044        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-reent.o)
-                0x20003044                errno
-                0x20003048                . = ALIGN (0x4)
-                0x20003048                _ebss = .
-                0x20003048                __bss_end__ = _ebss
+ COMMON         0x20003038        0x4 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-reent.o)
+                0x20003038                errno
+                0x2000303c                . = ALIGN (0x4)
+                0x2000303c                _ebss = .
+                0x2000303c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20003048      0x400 load address 0x08008048
-                0x20003048                . = ALIGN (0x4)
-                0x20003048                PROVIDE (end, .)
-                0x20003048                PROVIDE (_end, .)
-                0x20003448                . = (. + _Min_Stack_Size)
- *fill*         0x20003048      0x400 
-                0x20003448                . = ALIGN (0x4)
+                0x2000303c      0x400 load address 0x0800803c
+                0x2000303c                . = ALIGN (0x4)
+                0x2000303c                PROVIDE (end, .)
+                0x2000303c                PROVIDE (_end, .)
+                0x2000343c                . = (. + _Min_Stack_Size)
+ *fill*         0x2000303c      0x400 
+                0x2000343c                . = ALIGN (0x4)
                 0x20020000                PROVIDE (_estack, (ORIGIN (RAM) + 0x20000))
 
 .memory_b1_text
@@ -1855,7 +1855,7 @@ LOAD /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/
                 0x00000854       0x1d /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
 OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x867c
+.debug_info     0x00000000     0x86a6
  .debug_info    0x00000000      0x520 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
  .debug_info    0x00000520      0x34b build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
  .debug_info    0x0000086b      0x5dd build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
@@ -1868,12 +1868,12 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .debug_info    0x00006253      0x3d7 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
  .debug_info    0x0000662a      0xbad build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/serial_driver.o
  .debug_info    0x000071d7      0x4f7 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .debug_info    0x000076ce      0x867 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .debug_info    0x00007f35      0x187 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
- .debug_info    0x000080bc      0x53b build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
- .debug_info    0x000085f7       0x85 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+ .debug_info    0x000076ce      0x891 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+ .debug_info    0x00007f5f      0x187 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .debug_info    0x000080e6      0x53b build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+ .debug_info    0x00008621       0x85 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
 
-.debug_abbrev   0x00000000     0x1776
+.debug_abbrev   0x00000000     0x1796
  .debug_abbrev  0x00000000      0x147 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
  .debug_abbrev  0x00000147      0x1c1 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
  .debug_abbrev  0x00000308      0x1a5 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
@@ -1886,12 +1886,12 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .debug_abbrev  0x00000ee8       0xf7 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
  .debug_abbrev  0x00000fdf      0x25b build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/serial_driver.o
  .debug_abbrev  0x0000123a      0x156 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .debug_abbrev  0x00001390      0x1ce build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .debug_abbrev  0x0000155e       0xce build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
- .debug_abbrev  0x0000162c      0x138 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
- .debug_abbrev  0x00001764       0x12 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+ .debug_abbrev  0x00001390      0x1ee build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+ .debug_abbrev  0x0000157e       0xce build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .debug_abbrev  0x0000164c      0x138 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+ .debug_abbrev  0x00001784       0x12 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
 
-.debug_aranges  0x00000000      0xa28
+.debug_aranges  0x00000000      0xa30
  .debug_aranges
                 0x00000000       0x40 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
  .debug_aranges
@@ -1917,15 +1917,15 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .debug_aranges
                 0x00000878       0x80 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
  .debug_aranges
-                0x000008f8       0x60 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                0x000008f8       0x68 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
  .debug_aranges
-                0x00000958       0x78 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+                0x00000960       0x78 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
  .debug_aranges
-                0x000009d0       0x30 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+                0x000009d8       0x30 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
  .debug_aranges
-                0x00000a00       0x28 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+                0x00000a08       0x28 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
 
-.debug_ranges   0x00000000      0x930
+.debug_ranges   0x00000000      0x938
  .debug_ranges  0x00000000       0x30 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
  .debug_ranges  0x00000030       0x48 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
  .debug_ranges  0x00000078       0x78 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
@@ -1938,12 +1938,12 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .debug_ranges  0x00000760       0x30 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
  .debug_ranges  0x00000790       0x38 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/serial_driver.o
  .debug_ranges  0x000007c8       0x70 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .debug_ranges  0x00000838       0x50 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .debug_ranges  0x00000888       0x68 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
- .debug_ranges  0x000008f0       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
- .debug_ranges  0x00000910       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+ .debug_ranges  0x00000838       0x58 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+ .debug_ranges  0x00000890       0x68 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .debug_ranges  0x000008f8       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+ .debug_ranges  0x00000918       0x20 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
 
-.debug_line     0x00000000     0x4116
+.debug_line     0x00000000     0x416d
  .debug_line    0x00000000      0x22b build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
  .debug_line    0x0000022b      0x2a2 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
  .debug_line    0x000004cd      0x3d6 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
@@ -1956,12 +1956,12 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .debug_line    0x00003244      0x177 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
  .debug_line    0x000033bb      0x335 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/serial_driver.o
  .debug_line    0x000036f0      0x2ab build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .debug_line    0x0000399b      0x341 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .debug_line    0x00003cdc      0x237 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
- .debug_line    0x00003f13      0x193 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
- .debug_line    0x000040a6       0x70 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
+ .debug_line    0x0000399b      0x398 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+ .debug_line    0x00003d33      0x237 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .debug_line    0x00003f6a      0x193 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+ .debug_line    0x000040fd       0x70 build/SC-KIT/CodeSourceryARM-Linux-x86/startup_stm32f2xx.o
 
-.debug_str      0x00000000     0x358d
+.debug_str      0x00000000     0x35a2
  .debug_str     0x00000000      0x3cf build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
                                 0x40b (size before relaxing)
  .debug_str     0x000003cf      0x1e9 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
@@ -1986,11 +1986,11 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
                                 0x739 (size before relaxing)
  .debug_str     0x00003225      0x15b build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
                                 0x33c (size before relaxing)
- .debug_str     0x00003380       0xbd build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
-                                0x6a0 (size before relaxing)
- .debug_str     0x0000343d       0xd4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .debug_str     0x00003380       0xd2 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+                                0x6b5 (size before relaxing)
+ .debug_str     0x00003452       0xd4 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
                                 0x26b (size before relaxing)
- .debug_str     0x00003511       0x7c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+ .debug_str     0x00003526       0x7c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
                                 0x3a8 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -2011,7 +2011,7 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
  .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
 
-.debug_frame    0x00000000     0x2908
+.debug_frame    0x00000000     0x2924
  .debug_frame   0x00000000       0xb0 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/misc.o
  .debug_frame   0x000000b0      0x104 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_exti.o
  .debug_frame   0x000001b4      0x1cc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/540162733/stm32f2xx_gpio.o
@@ -2024,33 +2024,33 @@ OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
  .debug_frame   0x00001c90       0xa0 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/sckit_debug.o
  .debug_frame   0x00001d30       0xcc build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/serial_driver.o
  .debug_frame   0x00001dfc      0x188 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/513150005/syscalls.o
- .debug_frame   0x00001f84      0x12c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
- .debug_frame   0x000020b0      0x13c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
- .debug_frame   0x000021ec       0x64 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
- .debug_frame   0x00002250       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
- .debug_frame   0x0000227c       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
- .debug_frame   0x000022a8       0x20 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
- .debug_frame   0x000022c8       0x40 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wbuf.o)
- .debug_frame   0x00002308       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wsetup.o)
- .debug_frame   0x00002334       0x48 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000237c       0x20 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
- .debug_frame   0x0000239c       0x5c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fflush.o)
- .debug_frame   0x000023f8      0x110 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
- .debug_frame   0x00002508       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
- .debug_frame   0x00002534       0x50 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-freer.o)
- .debug_frame   0x00002584       0x54 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fwalk.o)
- .debug_frame   0x000025d8       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-makebuf.o)
- .debug_frame   0x00002608       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-malloc.o)
- .debug_frame   0x00002638       0x38 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
- .debug_frame   0x00002670       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mlock.o)
- .debug_frame   0x000026a0       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-sbrkr.o)
- .debug_frame   0x000026cc       0x80 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
- .debug_frame   0x0000274c       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-writer.o)
- .debug_frame   0x00002778       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
- .debug_frame   0x000027a8       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-closer.o)
- .debug_frame   0x000027d4       0x3c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fclose.o)
- .debug_frame   0x00002810       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fstatr.o)
- .debug_frame   0x0000283c       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-isattyr.o)
- .debug_frame   0x00002868       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-lseekr.o)
- .debug_frame   0x00002894       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-readr.o)
- .debug_frame   0x000028c0       0x48 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-reent.o)
+ .debug_frame   0x00001f84      0x148 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/main.o
+ .debug_frame   0x000020cc      0x13c build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/stm32f2xx_it.o
+ .debug_frame   0x00002208       0x64 build/SC-KIT/CodeSourceryARM-Linux-x86/_ext/1360937237/system_stm32f2xx.o
+ .debug_frame   0x0000226c       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-init.o)
+ .debug_frame   0x00002298       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-memset.o)
+ .debug_frame   0x000022c4       0x20 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-strlen.o)
+ .debug_frame   0x000022e4       0x40 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wbuf.o)
+ .debug_frame   0x00002324       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-wsetup.o)
+ .debug_frame   0x00002350       0x48 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00002398       0x20 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-atexit.o)
+ .debug_frame   0x000023b8       0x5c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fflush.o)
+ .debug_frame   0x00002414      0x110 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-findfp.o)
+ .debug_frame   0x00002524       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fini.o)
+ .debug_frame   0x00002550       0x50 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-freer.o)
+ .debug_frame   0x000025a0       0x54 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fwalk.o)
+ .debug_frame   0x000025f4       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-makebuf.o)
+ .debug_frame   0x00002624       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-malloc.o)
+ .debug_frame   0x00002654       0x38 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x0000268c       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-mlock.o)
+ .debug_frame   0x000026bc       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x000026e8       0x80 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-stdio.o)
+ .debug_frame   0x00002768       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-writer.o)
+ .debug_frame   0x00002794       0x30 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000027c4       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-closer.o)
+ .debug_frame   0x000027f0       0x3c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fclose.o)
+ .debug_frame   0x0000282c       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-fstatr.o)
+ .debug_frame   0x00002858       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-isattyr.o)
+ .debug_frame   0x00002884       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-lseekr.o)
+ .debug_frame   0x000028b0       0x2c /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-readr.o)
+ .debug_frame   0x000028dc       0x48 /home/japaw/Downloads/scide-linux-7.4.6/scide/cnd/arm-Linux-x86/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a(lib_a-reent.o)
