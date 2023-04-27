@@ -28,7 +28,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-#define CHECK_NUMER (int)20
+#define CHECK_NUMER (int)1
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
@@ -87,7 +87,7 @@ extern void init_timer_TIM2()
  
     TIM_TimeBaseInitTypeDef timerInitStructure; 
     //timerInitStructure.TIM_Prescaler = 40000;
-    timerInitStructure.TIM_Prescaler = 500;
+    timerInitStructure.TIM_Prescaler = 100;
     timerInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
     //timerInitStructure.TIM_Period = 500;
     timerInitStructure.TIM_Period = 60000;
@@ -203,7 +203,7 @@ int main(void)
                 printChar(inputKey);
             }
             waitForRelease();
-            GPIO_ToggleBits(GPIOE, GPIO_Pin_15);
+            // GPIO_ToggleBits(GPIOE, GPIO_Pin_15);
             inputKey = 0;
         }
     }
@@ -311,6 +311,7 @@ char keyboardHandler()
     if(strlen(buffer) > 0){
         waitForRelease();
     }
+    delay(100000);
     return buffer[0];
 }
 void waitForRelease()

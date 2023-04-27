@@ -1,0 +1,2108 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+                              build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o (__errno)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+                              build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o (setbuf)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o) (setvbuf)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+                              build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o (__swbuf_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o) (__swsetup_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o) (__call_exitprocs)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o) (atexit)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o) (_fflush_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o) (_cleanup_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o) (_free_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o) (_fwalk)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o) (malloc)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o) (_malloc_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o) (__malloc_lock)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o) (_sbrk_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o) (__sread)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o) (_write_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o) (__register_exitproc)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o) (_close_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o) (fclose)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o) (_fstat_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o) (_isatty_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o) (_lseek_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o) (_read_r)
+c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+                              c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o) (errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+sEEDMA_InitStructure
+                    0x3c              build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+errno               0x4               c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+NVIC_InitStructure  0x4               build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .text          0x00000000       0x74 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x00000000       0x54 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x58 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0xb4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x00000000       0xe0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_TempSensorVrefintCmd
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_VBATCmd
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x00000000       0x60 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_EOCOnEachRegularChannelCmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_ContinuousModeCmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_DiscModeCmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_GetMultiModeConversionValue
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_DMACmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_DMARequestAfterLastTransferCmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_MultiModeDMARequestAfterLastTransferCmd
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x00000000      0x210 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_SetInjectedOffset
+                0x00000000       0x94 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x00000000       0xec build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvEdgeConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_SoftwareStartInjectedConv
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000       0x60 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_GetFlagStatus
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_ClearFlag
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text.ADC_GetITStatus
+                0x00000000       0xbc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_SoftwareTriggerCmd
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_DualSoftwareTriggerCmd
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_WaveGenerationCmd
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_SetChannel1Data
+                0x00000000       0x64 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_SetDualChannelData
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_GetDataOutputValue
+                0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_DMACmd
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_ITConfig
+                0x00000000       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_GetFlagStatus
+                0x00000000       0x64 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_ClearFlag
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_GetITStatus
+                0x00000000       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text.DAC_ClearITPendingBit
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .rodata        0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_DeInit
+                0x00000000      0x22c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_Init
+                0x00000000      0x388 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_Cmd  0x00000000      0x118 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000      0x118 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000      0x114 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000       0xe8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000      0x120 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000      0x118 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000      0x10c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000       0xfc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000       0xfc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000       0xf0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000      0x310 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_ClearFlag
+                0x00000000      0x158 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_ITConfig
+                0x00000000      0x16c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_GetITStatus
+                0x00000000      0x378 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000      0x158 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_info    0x00000000      0x727 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_abbrev  0x00000000      0x171 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_aranges
+                0x00000000       0xb0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_ranges  0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_line    0x00000000      0x507 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_str     0x00000000      0x58f build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .ARM.attributes
+                0x00000000       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .debug_frame   0x00000000      0x26c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .text.EXTI_StructInit
+                0x00000000       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x174 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000      0x124 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000      0x124 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0xa4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0xa4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000      0x134 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x94 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000       0x98 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .rodata        0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x98 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_Init
+                0x00000000      0x258 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_Cmd  0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_Send7bitAddress
+                0x00000000       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_SMBusAlertConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_ARPCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_SendData
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_TransmitPEC
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_PECPositionConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GetPEC
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_CheckEvent
+                0x00000000      0x174 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GetLastEvent
+                0x00000000       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GetFlagStatus
+                0x00000000      0x17c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000      0x138 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_info    0x00000000      0xacc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_abbrev  0x00000000      0x180 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_aranges
+                0x00000000      0x120 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_ranges  0x00000000      0x110 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_line    0x00000000      0x682 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_str     0x00000000      0x6a0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .ARM.attributes
+                0x00000000       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .debug_frame   0x00000000      0x42c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x5c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0xb4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x58 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x94 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x94 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x54 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000      0x1e0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_DeInit
+                0x00000000       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .rodata        0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_Init
+                0x00000000       0xf4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_StructInit
+                0x00000000       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_ClockCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_SetPowerState
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetPowerState
+                0x00000000       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_SendCommand
+                0x00000000       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_CmdStructInit
+                0x00000000       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetCommandResponse
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetResponse
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_DataConfig
+                0x00000000      0x140 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_DataStructInit
+                0x00000000       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetDataCounter
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_ReadData
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_WriteData
+                0x00000000       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetFIFOCount
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_StartSDIOReadWait
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_StopSDIOReadWait
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_SetSDIOReadWaitMode
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_SetSDIOOperation
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_SendSDIOSuspendCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_CommandCompletionCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_CEATAITCmd
+                0x00000000       0x44 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_SendCEATACmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_DMACmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_ITConfig
+                0x00000000       0x6c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetFlagStatus
+                0x00000000       0xf0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_ClearFlag
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_GetITStatus
+                0x00000000       0xf0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text.SDIO_ClearITPendingBit
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_info    0x00000000      0x7d8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_abbrev  0x00000000      0x193 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_aranges
+                0x00000000      0x108 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_ranges  0x00000000       0xf8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_line    0x00000000      0x4e1 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_str     0x00000000      0x686 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .ARM.attributes
+                0x00000000       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .debug_frame   0x00000000      0x394 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .rodata        0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_DeInit
+                0x00000000       0x98 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_Init
+                0x00000000      0x1d0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.I2S_Init
+                0x00000000      0x2c0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.I2S_StructInit
+                0x00000000       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_Cmd  0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.I2S_Cmd  0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_SendData
+                0x00000000       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_GetCRC
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_DMACmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0xc0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000       0x60 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0xd8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_info    0x00000000      0xa88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_abbrev  0x00000000      0x192 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_aranges
+                0x00000000       0xd8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_ranges  0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_line    0x00000000      0x56f build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_str     0x00000000      0x6a8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .ARM.attributes
+                0x00000000       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .debug_frame   0x00000000      0x308 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .text.SYSCFG_ETH_MediaInterfaceConfig
+                0x00000000       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .text.SYSCFG_CompensationCellCmd
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .text.SYSCFG_GetCompensationCellStatus
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .rodata        0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x238 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_TimeBaseInit
+                0x00000000      0x1c0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000       0xec build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0xac build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetCounter
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetCounter
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000      0x104 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000      0x104 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000      0x104 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0xfc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0xec build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_Cmd  0x00000000      0x104 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC1Init
+                0x00000000      0x25c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC2Init
+                0x00000000      0x248 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC3Init
+                0x00000000      0x22c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC4Init
+                0x00000000      0x19c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x44 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000      0x1a0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetCompare1
+                0x00000000       0xb0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetCompare2
+                0x00000000       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetCompare3
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetCompare4
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_CCxCmd
+                0x00000000      0x124 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ICInit
+                0x00000000      0x280 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000      0x120 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetCapture1
+                0x00000000       0xb0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetCapture2
+                0x00000000       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetCapture3
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetCapture4
+                0x00000000       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0xf0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0xc4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0xac build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000      0x12c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ITConfig
+                0x00000000      0x124 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000      0x140 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ClearFlag
+                0x00000000       0xd0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_GetITStatus
+                0x00000000      0x13c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ClearITPendingBit
+                0x00000000       0xd0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_DMAConfig
+                0x00000000      0x190 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_DMACmd
+                0x00000000       0xe0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0xa4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000      0x118 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0xf4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0xd4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000      0x108 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0xd8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0xc0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0xb4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0xe4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000      0x144 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0xbc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TIM_RemapConfig
+                0x00000000       0x94 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TI1_Config
+                0x00000000       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TI2_Config
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TI3_Config
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text.TI4_Config
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_info    0x00000000     0x1c39 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_abbrev  0x00000000      0x189 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_aranges
+                0x00000000      0x2f8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_ranges  0x00000000      0x2e8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_line    0x00000000     0x10c2 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_str     0x00000000      0xe0b build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .ARM.attributes
+                0x00000000       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .debug_frame   0x00000000      0xb70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_DeInit
+                0x00000000      0x10c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_StructInit
+                0x00000000       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_ClockInit
+                0x00000000       0xfc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_ClockStructInit
+                0x00000000       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x8c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0xac build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_SetAddress
+                0x00000000       0x9c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_WakeUpConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_LINCmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_SendBreak
+                0x00000000       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_IrDACmd
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_DMACmd
+                0x00000000       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_ITConfig
+                0x00000000      0x17c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_ClearFlag
+                0x00000000       0xc4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_GetITStatus
+                0x00000000      0x1ac build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0xf0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .rodata.pagemap
+                0x00000000        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .data.font5x8  0x00000000      0x4fc build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .rodata.LCD_Bitmap_SCKIT
+                0x00000000      0x400 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_SendByte
+                0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_Command
+                0x00000000       0x28 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_Data
+                0x00000000       0x28 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_PowerOn
+                0x00000000       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_Setup
+                0x00000000       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DeInit
+                0x00000000       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_SetBrightness
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_SetBacklight
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_Init
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DisplayOn
+                0x00000000       0x24 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DisplayOff
+                0x00000000       0x24 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_Clear
+                0x00000000       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DisplayEx
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DisplayStringLineEx
+                0x00000000       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_WriteTo
+                0x00000000       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DisplayCharEx
+                0x00000000       0xc4 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.LCD_DrawYLine
+                0x00000000       0xb8 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text.delay    0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_info    0x00000000      0x871 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_abbrev  0x00000000      0x1b6 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_aranges
+                0x00000000       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_ranges  0x00000000       0x98 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_line    0x00000000      0x361 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_str     0x00000000      0x4b1 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .ARM.attributes
+                0x00000000       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .debug_frame   0x00000000      0x234 build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .rodata.COM_IRQn
+                0x00000000        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.STM_EVAL_LEDOn
+                0x00000000       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.STM_EVAL_LEDToggle
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.STM_EVAL_PBGetState
+                0x00000000       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.SD_LowLevel_DeInit
+                0x00000000       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.SD_LowLevel_Init
+                0x00000000       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.SD_LowLevel_DMA_TxConfig
+                0x00000000       0x98 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.SD_LowLevel_DMA_RxConfig
+                0x00000000       0x98 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.SD_DMAEndOfTransferStatus
+                0x00000000       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.sEE_LowLevel_DeInit
+                0x00000000       0xb4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.sEE_LowLevel_Init
+                0x00000000      0x194 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.sEE_LowLevel_DMAConfig
+                0x00000000       0x5c build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.sACCEL_LowLevel_DeInit
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.sACCEL_SPIConfig
+                0x00000000       0x58 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.sACCEL_LowLevel_Init
+                0x00000000       0xb4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.LCD_SPIinit
+                0x00000000       0x58 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.LCD_SPIDeInit
+                0x00000000       0x24 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.LCD_BacklightInit
+                0x00000000       0xd4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.LCD_BacklightDeInit
+                0x00000000       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.LCD_LowLevel_Init
+                0x00000000       0xf4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text.LCD_LowLevel_DeInit
+                0x00000000       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ COMMON         0x00000000       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .text.siprintf
+                0x00000000       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .text.fdpoll   0x00000000       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text._exit    0x00000000       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text._getpid  0x00000000       0x10 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text._kill    0x00000000       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text.link     0x00000000       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text._open    0x00000000       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .text.sEE_TIMEOUT_UserCallback
+                0x00000000       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .text          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .text          0x00000000       0x14 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+ .data          0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+ .bss           0x00000000        0x0 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xf0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x24 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000       0x14 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0x8c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x14 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x14 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x00000000       0x4c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+ .text.free     0x00000000       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x90 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dma.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_i2c.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_sdio.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_spi.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_tim.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/860902683/lcd_st7565p.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+LOAD build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+START GROUP
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x184
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x184 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+                0x08000000                g_pfnVectors
+                0x08000184                . = ALIGN (0x4)
+
+.text           0x08000184     0x47a4
+                0x08000184                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000184       0x54 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ *(.text*)
+ .text.NVIC_Init
+                0x080001d8       0xf4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+                0x080001d8                NVIC_Init
+ .text.ADC_DeInit
+                0x080002cc       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x080002cc                ADC_DeInit
+ .text.ADC_Init
+                0x080002e8      0x238 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x080002e8                ADC_Init
+ .text.ADC_StructInit
+                0x08000520       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000520                ADC_StructInit
+ .text.ADC_CommonInit
+                0x0800055c      0x1c8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x0800055c                ADC_CommonInit
+ .text.ADC_CommonStructInit
+                0x08000724       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000724                ADC_CommonStructInit
+ .text.ADC_Cmd  0x08000750       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000750                ADC_Cmd
+ .text.ADC_RegularChannelConfig
+                0x080007cc      0x280 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x080007cc                ADC_RegularChannelConfig
+ .text.ADC_SoftwareStartConv
+                0x08000a4c       0x4c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000a4c                ADC_SoftwareStartConv
+ .text.ADC_GetConversionValue
+                0x08000a98       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000a98                ADC_GetConversionValue
+ .text.ADC_ITConfig
+                0x08000ae0       0xc4 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000ae0                ADC_ITConfig
+ .text.ADC_ClearITPendingBit
+                0x08000ba4       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                0x08000ba4                ADC_ClearITPendingBit
+ .text.DAC_DeInit
+                0x08000c2c       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+                0x08000c2c                DAC_DeInit
+ .text.DAC_Init
+                0x08000c48      0x1e0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+                0x08000c48                DAC_Init
+ .text.DAC_StructInit
+                0x08000e28       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+                0x08000e28                DAC_StructInit
+ .text.DAC_Cmd  0x08000e54       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+                0x08000e54                DAC_Cmd
+ .text.DAC_SetChannel2Data
+                0x08000ec8       0x64 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+                0x08000ec8                DAC_SetChannel2Data
+ .text.EXTI_Init
+                0x08000f2c      0x148 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+                0x08000f2c                EXTI_Init
+ .text.EXTI_GetITStatus
+                0x08001074       0xfc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+                0x08001074                EXTI_GetITStatus
+ .text.EXTI_ClearITPendingBit
+                0x08001170       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+                0x08001170                EXTI_ClearITPendingBit
+ .text.GPIO_Init
+                0x080011a8      0x22c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+                0x080011a8                GPIO_Init
+ .text.GPIO_StructInit
+                0x080013d4       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+                0x080013d4                GPIO_StructInit
+ .text.GPIO_PinAFConfig
+                0x08001408      0x250 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+                0x08001408                GPIO_PinAFConfig
+ .text.RCC_GetClocksFreq
+                0x08001658      0x154 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                0x08001658                RCC_GetClocksFreq
+ .text.RCC_AHB1PeriphClockCmd
+                0x080017ac       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                0x080017ac                RCC_AHB1PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x0800181c       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                0x0800181c                RCC_APB1PeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x0800188c       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                0x0800188c                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x080018fc       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                0x080018fc                RCC_APB1PeriphResetCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x0800196c       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                0x0800196c                RCC_APB2PeriphResetCmd
+ .text.SYSCFG_EXTILineConfig
+                0x080019dc      0x124 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+                0x080019dc                SYSCFG_EXTILineConfig
+ .text.USART_Init
+                0x08001b00      0x2cc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+                0x08001b00                USART_Init
+ .text.USART_Cmd
+                0x08001dcc       0xa8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+                0x08001dcc                USART_Cmd
+ .text.USART_SendData
+                0x08001e74       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+                0x08001e74                USART_SendData
+ .text.USART_ReceiveData
+                0x08001efc       0x74 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+                0x08001efc                USART_ReceiveData
+ .text.USART_GetFlagStatus
+                0x08001f70      0x108 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+                0x08001f70                USART_GetFlagStatus
+ .text.STM_EVAL_LEDInit
+                0x08002078       0x5c build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x08002078                STM_EVAL_LEDInit
+ .text.STM_EVAL_LEDOff
+                0x080020d4       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080020d4                STM_EVAL_LEDOff
+ .text.STM_EVAL_PBInit
+                0x08002104       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x08002104                STM_EVAL_PBInit
+ .text.STM_EVAL_COMInit
+                0x080021d0      0x160 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080021d0                STM_EVAL_COMInit
+ .text.printchar
+                0x08002330       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .text.prints   0x080023fc       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+                0x080023fc                prints
+ .text.vsiprintf
+                0x08002444      0x434 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+                0x08002444                vsiprintf
+ .text.iprintf  0x08002878       0x2c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+                0x08002878                iprintf
+ .text.debug_break
+                0x080028a4       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .text.halt     0x080028b8        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .text.assert_failed
+                0x080028c0       0x24 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+                0x080028c0                assert_failed
+ .text.print_assert
+                0x080028e4       0x44 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+                0x080028e4                print_assert
+ .text.print_hardFault
+                0x08002928      0x13c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+                0x08002928                print_hardFault
+ .text.ComPort_ConfigStdio
+                0x08002a64       0x64 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+                0x08002a64                ComPort_ConfigStdio
+ .text.ComPort_Init
+                0x08002ac8       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+                0x08002ac8                ComPort_Init
+ .text.ComPort_getUARTFromFd
+                0x08002b00       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+                0x08002b00                ComPort_getUARTFromFd
+ .text.fdputc   0x08002b78       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+                0x08002b78                fdputc
+ .text.fdgetc   0x08002bb0       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+                0x08002bb0                fdgetc
+ .text.halt     0x08002be4        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .text._sbrk    0x08002bec       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002bec                _sbrk
+ .text._close   0x08002c64       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002c64                _close
+ .text._fstat   0x08002c7c       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002c7c                _fstat
+ .text._isatty  0x08002c9c       0x18 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002c9c                _isatty
+ .text._lseek   0x08002cb4       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002cb4                _lseek
+ .text._read    0x08002cd0       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002cd0                _read
+ .text._write   0x08002d0c       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                0x08002d0c                _write
+ .text.main     0x08002d48       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                0x08002d48                main
+ .text.ADC_IRQHandler
+                0x08002d5c       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                0x08002d5c                ADC_IRQHandler
+ .text.InitADC  0x08002d8c       0xe8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                0x08002d8c                InitADC
+ .text.InitDAC  0x08002e74       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                0x08002e74                InitDAC
+ .text.InitPeripherals
+                0x08002ee4       0x50 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                0x08002ee4                InitPeripherals
+ .text.halt     0x08002f34        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .text.NMI_Handler
+                0x08002f3c        0xc build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002f3c                NMI_Handler
+ .text.HardFault_Handler
+                0x08002f48       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002f48                HardFault_Handler
+ .text.MemManage_Handler
+                0x08002f68       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002f68                MemManage_Handler
+ .text.BusFault_Handler
+                0x08002f84       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002f84                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08002fa0       0x1c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002fa0                UsageFault_Handler
+ .text.SVC_Handler
+                0x08002fbc        0xc build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002fbc                SVC_Handler
+ .text.DebugMon_Handler
+                0x08002fc8        0xc build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002fc8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08002fd4        0xc build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002fd4                PendSV_Handler
+ .text.SysTick_Handler
+                0x08002fe0        0xc build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002fe0                SysTick_Handler
+ .text.EXTI15_10_IRQHandler
+                0x08002fec       0x34 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08002fec                EXTI15_10_IRQHandler
+ .text.SystemInit
+                0x08003020       0x5c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+                0x08003020                SystemInit
+ .text.SystemCoreClockUpdate
+                0x0800307c       0xf8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+                0x0800307c                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x08003174       0xd8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .text.Reset_Handler
+                0x0800324c       0x50 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+                0x0800324c                Reset_Handler
+ .text.Default_Handler
+                0x0800329c        0x4 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+                0x0800329c                RTC_Alarm_IRQHandler
+                0x0800329c                HASH_RNG_IRQHandler
+                0x0800329c                EXTI2_IRQHandler
+                0x0800329c                TIM8_CC_IRQHandler
+                0x0800329c                TIM1_CC_IRQHandler
+                0x0800329c                DMA2_Stream5_IRQHandler
+                0x0800329c                DMA1_Stream5_IRQHandler
+                0x0800329c                PVD_IRQHandler
+                0x0800329c                SDIO_IRQHandler
+                0x0800329c                TAMP_STAMP_IRQHandler
+                0x0800329c                CAN2_RX1_IRQHandler
+                0x0800329c                EXTI3_IRQHandler
+                0x0800329c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0800329c                TIM1_UP_TIM10_IRQHandler
+                0x0800329c                TIM8_UP_TIM13_IRQHandler
+                0x0800329c                I2C3_ER_IRQHandler
+                0x0800329c                EXTI0_IRQHandler
+                0x0800329c                I2C2_EV_IRQHandler
+                0x0800329c                DMA1_Stream2_IRQHandler
+                0x0800329c                CAN1_RX0_IRQHandler
+                0x0800329c                OTG_HS_WKUP_IRQHandler
+                0x0800329c                CAN2_SCE_IRQHandler
+                0x0800329c                DMA2_Stream2_IRQHandler
+                0x0800329c                SPI1_IRQHandler
+                0x0800329c                TIM6_DAC_IRQHandler
+                0x0800329c                TIM1_BRK_TIM9_IRQHandler
+                0x0800329c                DCMI_IRQHandler
+                0x0800329c                CAN2_RX0_IRQHandler
+                0x0800329c                DMA2_Stream3_IRQHandler
+                0x0800329c                USART6_IRQHandler
+                0x0800329c                USART3_IRQHandler
+                0x0800329c                CRYP_IRQHandler
+                0x0800329c                CAN1_RX1_IRQHandler
+                0x0800329c                UART5_IRQHandler
+                0x0800329c                DMA2_Stream0_IRQHandler
+                0x0800329c                TIM4_IRQHandler
+                0x0800329c                I2C1_EV_IRQHandler
+                0x0800329c                DMA1_Stream6_IRQHandler
+                0x0800329c                DMA1_Stream1_IRQHandler
+                0x0800329c                UART4_IRQHandler
+                0x0800329c                TIM3_IRQHandler
+                0x0800329c                RCC_IRQHandler
+                0x0800329c                TIM8_BRK_TIM12_IRQHandler
+                0x0800329c                Default_Handler
+                0x0800329c                DMA1_Stream7_IRQHandler
+                0x0800329c                TIM7_IRQHandler
+                0x0800329c                CAN2_TX_IRQHandler
+                0x0800329c                TIM5_IRQHandler
+                0x0800329c                DMA2_Stream7_IRQHandler
+                0x0800329c                I2C3_EV_IRQHandler
+                0x0800329c                EXTI9_5_IRQHandler
+                0x0800329c                RTC_WKUP_IRQHandler
+                0x0800329c                ETH_WKUP_IRQHandler
+                0x0800329c                SPI2_IRQHandler
+                0x0800329c                OTG_HS_EP1_IN_IRQHandler
+                0x0800329c                DMA1_Stream0_IRQHandler
+                0x0800329c                CAN1_TX_IRQHandler
+                0x0800329c                EXTI4_IRQHandler
+                0x0800329c                FSMC_IRQHandler
+                0x0800329c                ETH_IRQHandler
+                0x0800329c                OTG_HS_EP1_OUT_IRQHandler
+                0x0800329c                WWDG_IRQHandler
+                0x0800329c                TIM2_IRQHandler
+                0x0800329c                OTG_FS_WKUP_IRQHandler
+                0x0800329c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0800329c                OTG_HS_IRQHandler
+                0x0800329c                EXTI1_IRQHandler
+                0x0800329c                USART2_IRQHandler
+                0x0800329c                I2C2_ER_IRQHandler
+                0x0800329c                DMA2_Stream1_IRQHandler
+                0x0800329c                CAN1_SCE_IRQHandler
+                0x0800329c                FLASH_IRQHandler
+                0x0800329c                DMA2_Stream4_IRQHandler
+                0x0800329c                USART1_IRQHandler
+                0x0800329c                OTG_FS_IRQHandler
+                0x0800329c                SPI3_IRQHandler
+                0x0800329c                DMA1_Stream4_IRQHandler
+                0x0800329c                I2C1_ER_IRQHandler
+                0x0800329c                DMA2_Stream6_IRQHandler
+                0x0800329c                DMA1_Stream3_IRQHandler
+ .text.__libc_init_array
+                0x080032a0       0x50 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+                0x080032a0                __libc_init_array
+ .text.memset   0x080032f0       0x94 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+                0x080032f0                memset
+ .text.setbuf   0x08003384       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+                0x08003384                setbuf
+ .text.setvbuf  0x08003394      0x100 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+                0x08003394                setvbuf
+ .text.__swbuf_r
+                0x08003494       0xa8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+                0x08003494                __swbuf_r
+ .text.__swsetup_r
+                0x0800353c       0xc4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+                0x0800353c                __swsetup_r
+ .text.startup.register_fini
+                0x08003600       0x14 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08003614        0xc c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+                0x08003614                atexit
+ .text.__sflush_r
+                0x08003620      0x148 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+                0x08003620                __sflush_r
+ .text._fflush_r
+                0x08003768       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+                0x08003768                _fflush_r
+ .text._cleanup_r
+                0x08003794        0xc c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+                0x08003794                _cleanup_r
+ .text.__sinit  0x080037a0       0xf4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+                0x080037a0                __sinit
+ .text.__sfp_lock_acquire
+                0x08003894        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+                0x08003894                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x08003898        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+                0x08003898                __sfp_lock_release
+ .text.__libc_fini_array
+                0x0800389c       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+                0x0800389c                __libc_fini_array
+ .text._malloc_trim_r
+                0x080038cc       0x9c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+                0x080038cc                _malloc_trim_r
+ .text._free_r  0x08003968      0x198 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+                0x08003968                _free_r
+ .text._fwalk   0x08003b00       0x48 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+                0x08003b00                _fwalk
+ .text.__smakebuf_r
+                0x08003b48       0xe0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+                0x08003b48                __smakebuf_r
+ .text.malloc   0x08003c28       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+                0x08003c28                malloc
+ .text._malloc_r
+                0x08003c38      0x538 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x08003c38                _malloc_r
+ .text.__malloc_lock
+                0x08004170        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+                0x08004170                __malloc_lock
+ .text.__malloc_unlock
+                0x08004174        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+                0x08004174                __malloc_unlock
+ .text._sbrk_r  0x08004178       0x24 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+                0x08004178                _sbrk_r
+ .text.__sread  0x0800419c       0x24 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+                0x0800419c                __sread
+ .text.__swrite
+                0x080041c0       0x38 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+                0x080041c0                __swrite
+ .text.__sseek  0x080041f8       0x24 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+                0x080041f8                __sseek
+ .text.__sclose
+                0x0800421c        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+                0x0800421c                __sclose
+ .text._write_r
+                0x08004224       0x28 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+                0x08004224                _write_r
+ .text.__register_exitproc
+                0x0800424c       0xa8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+                0x0800424c                __register_exitproc
+ .text._close_r
+                0x080042f4       0x24 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+                0x080042f4                _close_r
+ .text._fclose_r
+                0x08004318       0x80 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+                0x08004318                _fclose_r
+ .text.fclose   0x08004398       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+                0x08004398                fclose
+ .text._fstat_r
+                0x080043a8       0x28 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+                0x080043a8                _fstat_r
+ .text._isatty_r
+                0x080043d0       0x24 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+                0x080043d0                _isatty_r
+ .text._lseek_r
+                0x080043f4       0x28 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+                0x080043f4                _lseek_r
+ .text._read_r  0x0800441c       0x28 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+                0x0800441c                _read_r
+ *(.rodata)
+ .rodata        0x08004444       0x3c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .rodata        0x08004480       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .rodata        0x080044c8       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .rodata        0x08004510       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .rodata        0x08004558       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .rodata        0x080045a0       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .rodata        0x080045e8       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .rodata        0x08004630       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .rodata        0x08004678      0x1a4 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .rodata        0x0800481c       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .rodata        0x0800484c       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ *(.rodata*)
+ .rodata.GPIO_PIN
+                0x0800488c       0x10 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x0800488c                GPIO_PIN
+ .rodata.GPIO_CLK
+                0x0800489c       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x0800489c                GPIO_CLK
+ .rodata.BUTTON_PIN
+                0x080048bc        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048bc                BUTTON_PIN
+ .rodata.BUTTON_CLK
+                0x080048c0        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048c0                BUTTON_CLK
+ .rodata.BUTTON_EXTI_LINE
+                0x080048c8        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048c8                BUTTON_EXTI_LINE
+ .rodata.BUTTON_PORT_SOURCE
+                0x080048cc        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048cc                BUTTON_PORT_SOURCE
+ .rodata.BUTTON_PIN_SOURCE
+                0x080048d0        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048d0                BUTTON_PIN_SOURCE
+ .rodata.BUTTON_IRQn
+                0x080048d4        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048d4                BUTTON_IRQn
+ .rodata.COM_USART_CLK
+                0x080048d8        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048d8                COM_USART_CLK
+ .rodata.COM_TX_PORT_CLK
+                0x080048e0        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048e0                COM_TX_PORT_CLK
+ .rodata.COM_RX_PORT_CLK
+                0x080048e8        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048e8                COM_RX_PORT_CLK
+ .rodata.COM_TX_PIN
+                0x080048f0        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048f0                COM_TX_PIN
+ .rodata.COM_RX_PIN
+                0x080048f4        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048f4                COM_RX_PIN
+ .rodata.COM_TX_PIN_SOURCE
+                0x080048f8        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048f8                COM_TX_PIN_SOURCE
+ .rodata.COM_RX_PIN_SOURCE
+                0x080048fc        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x080048fc                COM_RX_PIN_SOURCE
+ .rodata.COM_TX_AF
+                0x08004900        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x08004900                COM_TX_AF
+ .rodata.COM_RX_AF
+                0x08004904        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x08004904                COM_RX_AF
+ .rodata.str1.4
+                0x08004908        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0800490c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                0x0800490c                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08004910        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ *(.init)
+ .init          0x08004910        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x08004910                _init
+ .init          0x08004914        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ *(.fini)
+ .fini          0x0800491c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x0800491c                _fini
+ .fini          0x08004920        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x08004928                . = ALIGN (0x4)
+                0x08004928                _etext = .
+
+.vfp11_veneer   0x08004928        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08004928        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08004928        0x0
+ .iplt          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+
+.rel.dyn        0x08004928        0x0
+ .rel.iplt      0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08004928        0x0
+                0x08004928                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08004928                __exidx_end = .
+
+.preinit_array  0x08004928        0x0
+                0x08004928                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08004928                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08004928        0x8
+                0x08004928                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x08004928        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x0800492c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x08004930                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08004930        0x4
+                0x08004930                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ .fini_array    0x08004930        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x08004934                PROVIDE (__fini_array_end, .)
+                0x08004934                _sidata = .
+
+.data           0x20000000      0x8a4 load address 0x08004934
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.APBAHBPrescTable
+                0x20000000       0x10 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .data.GPIO_PORT
+                0x20000010       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x20000010                GPIO_PORT
+ .data.BUTTON_PORT
+                0x20000030        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x20000030                BUTTON_PORT
+ .data.COM_USART
+                0x20000038        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x20000038                COM_USART
+ .data.COM_TX_PORT
+                0x20000040        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x20000040                COM_TX_PORT
+ .data.COM_RX_PORT
+                0x20000048        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                0x20000048                COM_RX_PORT
+ .data.stdin_port
+                0x20000050        0x1 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .data.stdout_port
+                0x20000051        0x1 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .data.stderr_port
+                0x20000052        0x1 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ *fill*         0x20000053        0x1 
+ .data.SystemCoreClock
+                0x20000054        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+                0x20000054                SystemCoreClock
+ .data.AHBPrescTable
+                0x20000058       0x10 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+                0x20000058                AHBPrescTable
+ .data.impure_data
+                0x20000068      0x428 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000490        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                0x20000490                _impure_ptr
+ .data.__malloc_av_
+                0x20000494      0x408 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x20000494                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x2000089c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x2000089c                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x200008a0        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x200008a0                __malloc_sbrk_base
+                0x200008a4                . = ALIGN (0x4)
+                0x200008a4                _edata = .
+
+.jcr            0x200008a4        0x0 load address 0x080051d8
+ .jcr           0x200008a4        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+
+.igot.plt       0x200008a4        0x0 load address 0x080051d8
+ .igot.plt      0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x200008a4                . = ALIGN (0x4)
+
+.bss            0x20001000     0x203c load address 0x08006000
+                0x20001000                _sbss = .
+                0x20001000                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20001000       0x1c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ *(.bss*)
+ *fill*         0x2000101c      0xfe4 
+ .bss.my_heap   0x20002000     0x1000 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .bss.heap.9056
+                0x20003000        0x4 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .bss.__malloc_max_total_mem
+                0x20003004        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x20003004                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x20003008        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x20003008                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x2000300c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x2000300c                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x20003010       0x28 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+                0x20003010                __malloc_current_mallinfo
+ *(COMMON)
+ COMMON         0x20003038        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+                0x20003038                errno
+                0x2000303c                . = ALIGN (0x4)
+                0x2000303c                _ebss = .
+                0x2000303c                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x2000303c      0x400 load address 0x0800803c
+                0x2000303c                . = ALIGN (0x4)
+                0x2000303c                PROVIDE (end, .)
+                0x2000303c                PROVIDE (_end, .)
+                0x2000343c                . = (. + _Min_Stack_Size)
+ *fill*         0x2000303c      0x400 
+                0x2000343c                . = ALIGN (0x4)
+                0x20020000                PROVIDE (_estack, (ORIGIN (RAM) + 0x20000))
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .ARM.attributes
+                0x0000007d       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .ARM.attributes
+                0x000000b0       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .ARM.attributes
+                0x000000e3       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .ARM.attributes
+                0x00000116       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .ARM.attributes
+                0x00000149       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .ARM.attributes
+                0x0000017c       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .ARM.attributes
+                0x000001af       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .ARM.attributes
+                0x000001e2       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .ARM.attributes
+                0x00000215       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .ARM.attributes
+                0x00000248       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .ARM.attributes
+                0x0000027b       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .ARM.attributes
+                0x000002ae       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .ARM.attributes
+                0x000002e1       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .ARM.attributes
+                0x00000314       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .ARM.attributes
+                0x00000347       0x33 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .ARM.attributes
+                0x0000037a       0x21 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+ .ARM.attributes
+                0x0000039b       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000003c8       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003f5       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000422       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+ .ARM.attributes
+                0x0000044f       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+ .ARM.attributes
+                0x0000047c       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x000004a9       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000004d6       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000503       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000530       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x0000055d       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x0000058a       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000005b7       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000005e4       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000611       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000063e       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000066b       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000698       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000006c5       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000006f2       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000071f       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000074c       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000779       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+ .ARM.attributes
+                0x000007a6       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x000007d3       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000800       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x0000082d       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000085a       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000887       0x2d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000008b4       0x1d c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+OUTPUT(dist/SC-KIT/Application.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x7c8c
+ .debug_info    0x00000000      0x520 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .debug_info    0x00000520      0xc10 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .debug_info    0x00001130      0x615 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .debug_info    0x00001745      0x34b build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .debug_info    0x00001a90      0x5dd build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .debug_info    0x0000206d      0xc25 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .debug_info    0x00002c92      0x24f build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .debug_info    0x00002ee1      0x99a build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .debug_info    0x0000387b     0x14cf build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .debug_info    0x00004d4a      0xaf5 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .debug_info    0x0000583f      0x3d7 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .debug_info    0x00005c16      0xbad build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .debug_info    0x000067c3      0x4f7 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .debug_info    0x00006cba      0x882 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .debug_info    0x0000753c      0x187 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .debug_info    0x000076c3      0x53b build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .debug_info    0x00007bfe       0x8e build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+
+.debug_abbrev   0x00000000     0x18a2
+ .debug_abbrev  0x00000000      0x147 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .debug_abbrev  0x00000147      0x1b2 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .debug_abbrev  0x000002f9      0x198 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .debug_abbrev  0x00000491      0x1c1 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .debug_abbrev  0x00000652      0x1a5 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .debug_abbrev  0x000007f7      0x1e3 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .debug_abbrev  0x000009da      0x133 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .debug_abbrev  0x00000b0d      0x171 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .debug_abbrev  0x00000c7e      0x216 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .debug_abbrev  0x00000e94      0x215 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .debug_abbrev  0x000010a9       0xf7 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .debug_abbrev  0x000011a0      0x25b build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .debug_abbrev  0x000013fb      0x156 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .debug_abbrev  0x00001551      0x139 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .debug_abbrev  0x0000168a       0xce build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .debug_abbrev  0x00001758      0x138 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .debug_abbrev  0x00001890       0x12 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+
+.debug_aranges  0x00000000      0x8f8
+ .debug_aranges
+                0x00000000       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .debug_aranges
+                0x00000040      0x148 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .debug_aranges
+                0x00000188       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .debug_aranges
+                0x00000228       0x58 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .debug_aranges
+                0x00000280       0x88 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .debug_aranges
+                0x00000308      0x178 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .debug_aranges
+                0x00000480       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .debug_aranges
+                0x000004c8      0x100 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .debug_aranges
+                0x000005c8       0xd8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .debug_aranges
+                0x000006a0       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .debug_aranges
+                0x000006e0       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .debug_aranges
+                0x00000720       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .debug_aranges
+                0x00000768       0x80 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .debug_aranges
+                0x000007e8       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000828       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .debug_aranges
+                0x000008a0       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .debug_aranges
+                0x000008d0       0x28 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+
+.debug_ranges   0x00000000      0x7f0
+ .debug_ranges  0x00000000       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .debug_ranges  0x00000030      0x138 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .debug_ranges  0x00000168       0x90 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .debug_ranges  0x000001f8       0x48 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .debug_ranges  0x00000240       0x78 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .debug_ranges  0x000002b8      0x168 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .debug_ranges  0x00000420       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .debug_ranges  0x00000458       0xf0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .debug_ranges  0x00000548       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .debug_ranges  0x00000610       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .debug_ranges  0x00000640       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .debug_ranges  0x00000670       0x38 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .debug_ranges  0x000006a8       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .debug_ranges  0x00000718       0x30 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .debug_ranges  0x00000748       0x68 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .debug_ranges  0x000007b0       0x20 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .debug_ranges  0x000007d0       0x20 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+
+.debug_line     0x00000000     0x399e
+ .debug_line    0x00000000      0x21c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .debug_line    0x0000021c      0x76e build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .debug_line    0x0000098a      0x3f0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .debug_line    0x00000d7a      0x293 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .debug_line    0x0000100d      0x3c7 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .debug_line    0x000013d4      0x78e build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .debug_line    0x00001b62      0x1d5 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .debug_line    0x00001d37      0x669 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .debug_line    0x000023a0      0x527 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .debug_line    0x000028c7      0x374 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .debug_line    0x00002c3b      0x168 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .debug_line    0x00002da3      0x308 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .debug_line    0x000030ab      0x28d build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .debug_line    0x00003338      0x24a build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .debug_line    0x00003582      0x228 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .debug_line    0x000037aa      0x184 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .debug_line    0x0000392e       0x70 build/SC-KIT/CodeSourceryARM-Windows/startup_stm32f2xx.o
+
+.debug_str      0x00000000     0x3463
+ .debug_str     0x00000000      0x3d1 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+                                0x414 (size before relaxing)
+ .debug_str     0x000003d1      0x657 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+                                0x83f (size before relaxing)
+ .debug_str     0x00000a28      0x27a build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+                                0x48e (size before relaxing)
+ .debug_str     0x00000ca2      0x1c9 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+                                0x3ba (size before relaxing)
+ .debug_str     0x00000e6b      0x31e build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+                                0x4de (size before relaxing)
+ .debug_str     0x00001189      0x645 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+                                0x88b (size before relaxing)
+ .debug_str     0x000017ce      0x15f build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+                                0x33a (size before relaxing)
+ .debug_str     0x0000192d      0x42c build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+                                0x6ca (size before relaxing)
+ .debug_str     0x00001d59      0xd6c build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+                               0x12ee (size before relaxing)
+ .debug_str     0x00002ac5      0x436 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+                                0x5e7 (size before relaxing)
+ .debug_str     0x00002efb      0x107 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+                                0x30c (size before relaxing)
+ .debug_str     0x00003002       0xce build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+                                0x742 (size before relaxing)
+ .debug_str     0x000030d0      0x15b build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+                                0x345 (size before relaxing)
+ .debug_str     0x0000322b       0xe8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                                0xbd9 (size before relaxing)
+ .debug_str     0x00003313       0xd4 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                                0x274 (size before relaxing)
+ .debug_str     0x000033e7       0x7c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+                                0x3b1 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .comment       0x00000000       0x71 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+
+.debug_frame    0x00000000     0x242c
+ .debug_frame   0x00000000       0xb0 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/misc.o
+ .debug_frame   0x000000b0      0x4bc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_adc.o
+ .debug_frame   0x0000056c      0x228 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_dac.o
+ .debug_frame   0x00000794      0x104 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_exti.o
+ .debug_frame   0x00000898      0x1cc build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_gpio.o
+ .debug_frame   0x00000a64      0x574 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_rcc.o
+ .debug_frame   0x00000fd8       0xc8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_syscfg.o
+ .debug_frame   0x000010a0      0x3a8 build/SC-KIT/CodeSourceryARM-Windows/_ext/540162733/stm32f2xx_usart.o
+ .debug_frame   0x00001448      0x2fc build/SC-KIT/CodeSourceryARM-Windows/_ext/1085738613/stm32_eval.o
+ .debug_frame   0x00001744       0xc0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/iprintf.o
+ .debug_frame   0x00001804       0xa0 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/sckit_debug.o
+ .debug_frame   0x000018a4       0xcc build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/serial_driver.o
+ .debug_frame   0x00001970      0x188 build/SC-KIT/CodeSourceryARM-Windows/_ext/513150005/syscalls.o
+ .debug_frame   0x00001af8       0xac build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+ .debug_frame   0x00001ba4      0x13c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+ .debug_frame   0x00001ce0       0x64 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/system_stm32f2xx.o
+ .debug_frame   0x00001d44       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-init.o)
+ .debug_frame   0x00001d70       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x00001d9c       0x20 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setbuf.o)
+ .debug_frame   0x00001dbc       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-setvbuf.o)
+ .debug_frame   0x00001dec       0x40 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wbuf.o)
+ .debug_frame   0x00001e2c       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-wsetup.o)
+ .debug_frame   0x00001e58       0x48 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001ea0       0x20 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00001ec0       0x5c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fflush.o)
+ .debug_frame   0x00001f1c      0x110 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-findfp.o)
+ .debug_frame   0x0000202c       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fini.o)
+ .debug_frame   0x00002058       0x50 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-freer.o)
+ .debug_frame   0x000020a8       0x54 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fwalk.o)
+ .debug_frame   0x000020fc       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-makebuf.o)
+ .debug_frame   0x0000212c       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-malloc.o)
+ .debug_frame   0x0000215c       0x38 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mallocr.o)
+ .debug_frame   0x00002194       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-mlock.o)
+ .debug_frame   0x000021c4       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x000021f0       0x80 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-stdio.o)
+ .debug_frame   0x00002270       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-writer.o)
+ .debug_frame   0x0000229c       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000022cc       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-closer.o)
+ .debug_frame   0x000022f8       0x3c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fclose.o)
+ .debug_frame   0x00002334       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-fstatr.o)
+ .debug_frame   0x00002360       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-isattyr.o)
+ .debug_frame   0x0000238c       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-lseekr.o)
+ .debug_frame   0x000023b8       0x2c c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-readr.o)
+ .debug_frame   0x000023e4       0x48 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-reent.o)

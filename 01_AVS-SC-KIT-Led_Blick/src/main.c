@@ -61,10 +61,12 @@ void SysTick_Handler(void)
     word = word >> 1;
 }*/
 void TIM2_IRQHandler(){
+    static int blink_pattern [] = {1,0,0,0,1,0};
+    static unsigned i = 0;
     if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){
         TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-        
-        GPIO_ToggleBits(GPIOE, GPIO_Pin_13);
+        GPIO_WriteBit(GPIOE, GPIO_Pin_13, blink_pattern[i]);
+        i = ++i %(sizeof(blink_pattern)/sizeof(int));
     }
 }
 
@@ -127,8 +129,8 @@ int main(void)
     init_buttons();
     init_timer_TIM2();
     
-    int gpioC_14_counter = 0;
-    int gpioC_15_counter = 0;
+    int gpioC_14_counter = 0;  // For debounce
+    int gpioC_15_counter = 0;  
 
     while (1) {
         //TIM2_IRQHandler();

@@ -23,6 +23,7 @@
 #include <stdio.h>
 
 #include "stm32_eval.h"
+#include "stm32_eval_spi_accel.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -39,7 +40,7 @@ void delay(vu32 nCount);
  */
 int main(void) {
     char sTmp[LCD_MAX_CHARS];
-    uint8_t iRet;
+    uint8_t lowRetX, highRetX, lowRetY, highRetY;
     /* Accelerometer initialization */
     sACCEL_Init();
 
@@ -47,7 +48,7 @@ int main(void) {
     LCD_Init();
     LCD_SetBacklight(100);
     LCD_DisplayStringLine(Line0, "Hello.");
-
+    sACCEL_WriteReg(0x20, 0x83);
     while (1) {
         /* Accelerometer */
         /* 
@@ -57,9 +58,20 @@ int main(void) {
          */
 
         /* Read and display WHO_AM_I register */
-        iRet = sACCEL_ReadReg(0x0F);
-        snprintf(sTmp, LCD_MAX_CHARS, "REG 0x%02X = 0x%02X", 0x0F, iRet);
+        // GDB - c like kalkulačka
+        lowRetX = sACCEL_ReadReg(0x28);
+        highRetX = sACCEL_ReadReg(0x29);
+        snprintf(sTmp, LCD_MAX_CHARS, "0x28,0x29=0x%02X, 0x%02X", lowRetX, highRetX);
         LCD_DisplayStringLine(Line2, sTmp);
+        lowRetY = sACCEL_ReadReg(0x2A);
+        highRetY = sACCEL_ReadReg(0x2B);
+        snprintf(sTmp, LCD_MAX_CHARS, "0x28,0x29=0x%02X, 0x%02X", lowRetY, highRetY);
+        LCD_DisplayStringLine(Line3, sTmp);
+        delay(0xFFFFFF);
+        LCD_ClearLine(Line2);
+        LCD_ClearLine(Line3);
+        delay(0xFFFFF);
+
     }
 
 }

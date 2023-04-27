@@ -56,13 +56,25 @@ int main(void) {
     
     /* DAC initialization */
     InitDAC();
+    
+    LCD_Clear();
 
     /* Program loop */
     while (1) {
 
         /* Now you can read from ADC data register */
+        uint16_t adc2 = ADC_GetConversionValue(ADC2);
+        DAC_SetChannel2Data(DAC_Align_12b_R, adc2);
+        uint16_t adc1 = ADC_GetConversionValue(ADC1);
+        char buffer [100];
+        sprintf(buffer, "ADC1 (BNC1) : %d", adc1);
+        LCD_DisplayStringLineEx(1, buffer, LCD_FLAG_FILL_LINE);
+        sprintf(buffer, "ADC2 (Pot1) : %d", adc2);
+        LCD_DisplayStringLineEx(2, buffer, LCD_FLAG_FILL_LINE);
+
+        //iprintf("%d %d\n", adc1, adc2);
         /* and write to DAC data register */
-        STM_EVAL_LEDToggle(LED1);
+        // STM_EVAL_LEDToggle(LED1);
 
         delay(0x5FFFFF);
     }

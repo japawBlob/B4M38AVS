@@ -7,13 +7,13 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # SC-KIT configuration
-CND_PLATFORM_SC-KIT=CodeSourceryARM-Linux-x86
+CND_PLATFORM_SC-KIT=CodeSourceryARM-Windows
 CND_ARTIFACT_DIR_SC-KIT=dist/SC-KIT
 CND_ARTIFACT_NAME_SC-KIT=Application.elf
 CND_ARTIFACT_PATH_SC-KIT=dist/SC-KIT/Application.elf
-CND_PACKAGE_DIR_SC-KIT=dist/SC-KIT/CodeSourceryARM-Linux-x86/package
+CND_PACKAGE_DIR_SC-KIT=dist/SC-KIT/CodeSourceryARM-Windows/package
 CND_PACKAGE_NAME_SC-KIT=sc-ide.tar
-CND_PACKAGE_PATH_SC-KIT=dist/SC-KIT/CodeSourceryARM-Linux-x86/package/sc-ide.tar
+CND_PACKAGE_PATH_SC-KIT=dist/SC-KIT/CodeSourceryARM-Windows/package/sc-ide.tar
 #
 # include compiler specific variables
 #

@@ -21,8 +21,8 @@ FC=gfortran
 AS=arm-none-eabi-gcc
 
 # Macros
-CND_PLATFORM=CodeSourceryARM-Linux-x86
-CND_DLIB_EXT=so
+CND_PLATFORM=CodeSourceryARM-Windows
+CND_DLIB_EXT=dll
 CND_CONF=SC-KIT
 CND_DISTDIR=dist
 CND_BUILDDIR=build
@@ -79,9 +79,9 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/Application.elf
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/Application.elf.exe
 
-${CND_DISTDIR}/${CND_CONF}/Application.elf: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/Application.elf.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/Application.elf ${OBJECTFILES} ${LDLIBSOPTIONS} -mthumb -mcpu=cortex-m3 -Tstm32_flash.ld -Wl,-Map=${CND_DISTDIR}/${CND_CONF}/Application.map -Wl,--gc-sections
 
@@ -210,7 +210,7 @@ ${OBJECTDIR}/startup_stm32f2xx.o: startup_stm32f2xx.s
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/Application.elf
+	${RM} ${CND_DISTDIR}/${CND_CONF}/Application.elf.exe
 
 # Subprojects
 .clean-subprojects:
