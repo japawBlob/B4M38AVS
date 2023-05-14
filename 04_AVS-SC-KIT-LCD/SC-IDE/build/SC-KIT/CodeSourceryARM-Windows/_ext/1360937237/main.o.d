@@ -34,7 +34,9 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
  ../../../../Utilities/Third_Party/System/stm32fxxx_uid.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h \
  ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h \
- ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h
+ ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h \
+ ../../../../Utilities/Third_Party/System/serial_driver.h ../inc/main.h \
+ ../inc/system_conf.h ../inc/stm32f2xx_conf.h
 
 ../../../../Utilities/STM32_EVAL/stm32_eval.h:
 
@@ -107,3 +109,11 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
 ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h:
 
 ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h:
+
+../../../../Utilities/Third_Party/System/serial_driver.h:
+
+../inc/main.h:
+
+../inc/system_conf.h:
+
+../inc/stm32f2xx_conf.h:

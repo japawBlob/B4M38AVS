@@ -110,9 +110,6 @@
       <itemPath>stm32_flash.ld</itemPath>
     </logicalFolder>
   </logicalFolder>
-  <sourceRootList>
-    <Elem>../../../../Utilities/STM32_EVAL/Common</Elem>
-  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="SC-KIT" type="1">
