@@ -24,6 +24,7 @@
 
 #include "stm32_eval.h"
 #include "stm32_eval_spi_accel.h"
+#include "lcd_framebuffer.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -38,7 +39,10 @@ void delay(vu32 nCount);
  * Main program.
  * @return Nothing.
  */
+uint8_t frame_buffer[128*64];
+
 int main(void) {
+    memset(frame_buffer,128*64,0);
     char sTmp[LCD_MAX_CHARS];
     uint8_t lowRetX, highRetX, lowRetY, highRetY;
     /* Accelerometer initialization */
@@ -117,8 +121,10 @@ int main(void) {
         
         if (old_pos_x != pos_x){
             old_pos_x = pos_x;
-            LCD_Clear();
-            LCD_DrawYLine(pos_x, 0xFF, 3, 4);
+            FB_Clear(frame_buffer, 0);
+            FB_DrawLine(frame_buffer, pos_x, 24, 16, LCD_FLAG_VERTICAL);
+            FB_DrawLine(frame_buffer, 56, pos_y, 16, LCD_FLAG_HORIZONTAL);
+            FB_Display(frame_buffer);
         }
         iprintf("x: %d, y: %d         ", x, y);
         iprintf("xx: %d, yy: %d         ", xx, yy);
@@ -126,8 +132,8 @@ int main(void) {
         iprintf("\n\r");
         delay(0xFFFFF);
         
-        
-        
+//        FB_DrawCircle(frame_buffer, 64, 32, 5, 0);
+//        FB_Display(frame_buffer);
     }
 
 }

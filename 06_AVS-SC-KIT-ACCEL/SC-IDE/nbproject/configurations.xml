@@ -8,6 +8,7 @@
         <itemPath>../../../../Project/AVS-Demos/01_AVS-SC-KIT-Led_Blick/inc/system_conf.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f7" displayName="SCKIT_EVAL" projectFiles="true">
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h</itemPath>
         <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h</itemPath>
         <itemPath>../../../../Utilities/STM32_EVAL/stm32_eval.h</itemPath>
         <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h</itemPath>
@@ -64,6 +65,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="f8" displayName="SCKIT_EVAL" projectFiles="true">
+        <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.c</itemPath>
         <itemPath>../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.c</itemPath>
         <itemPath>../../../../Utilities/STM32_EVAL/stm32_eval.c</itemPath>
         <itemPath>../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.c</itemPath>
@@ -383,6 +385,16 @@
             flavor2="0">
       </item>
       <item path="../../../../Project/AVS-Demos/01_AVS-SC-KIT-Led_Blick/inc/system_conf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h"
             ex="false"
             tool="3"
             flavor2="0">

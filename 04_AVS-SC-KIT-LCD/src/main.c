@@ -88,9 +88,11 @@ void setup_LCD();
 void LCD_SendData(uint8_t data);
 void LCD_SendCommand(uint8_t cmd);
 void LCD_DrawRectWithDiagonals(uint8_t x, uint8_t line);
+void LCD_DrawCentreRectangleDiag();
 void LCD_DrawOrnament(uint8_t x, uint8_t line, uint8_t length);
 void LCD_DrawVLine(uint8_t x, uint8_t y, uint8_t length);
 void LCD_DrawHLine(uint8_t x, uint8_t y, uint8_t length);
+void LCD_DrawRectangleDiag(uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2);
 void LCD_ClearDisplay();
 /* Private functions ---------------------------------------------------------*/
 
@@ -149,9 +151,14 @@ int main(void) {
         }
 //        LCD_SetPos(3,25);
 //        LCD_SendData((uint8_t)ENCODER_POSITION);
-        LCD_DrawVLine(64,32,ENCODER_POSITION);
+//        LCD_DrawVLine(64,32,ENCODER_POSITION);
+//        LCD_DrawVLine(65,32,ENCODER_POSITION);
+//        LCD_DrawVLine(66,32,ENCODER_POSITION);
+//        LCD_DrawHLine(50,37,ENCODER_POSITION);
+        //LCD_DrawRectangleDiag(32,16,60,32);
         /* USE ECODER :) */
         /* Look at the A4M38AVS web pages for your assignment*/
+        LCD_DrawCentreRectangleDiag();
         
         delay(0x0FFFFF);
         LCD_ClearDisplay();
@@ -296,16 +303,18 @@ void LCD_DrawVLine(uint8_t x, uint8_t y, uint8_t length)
     uint8_t data;
     uint8_t col_start = y % 8;
     
-    if (length < 8) {
-        unsigned bin_number = 0;
-        int i;
-        for (i = 0; i<length; i++){
-            bin_number = (bin_number << 1) | 1;
-        }
-        LCD_SetPos(cur_line++, column);
-        LCD_SendData(bin_number);
-    } else {
+//    if (length < 8) {
+//        unsigned bin_number = col_start;
+//        int i;
+//        for (i = 0; i<length; i++){
+//            bin_number = (bin_number << 1) | 1;
+//        }
+//        LCD_SetPos(cur_line++, column);
+//        LCD_SendData(bin_number);
+//    } else {
+
         data = ((0xff) << (col_start));
+       
 
         while (n_lines--)
         {
@@ -315,7 +324,7 @@ void LCD_DrawVLine(uint8_t x, uint8_t y, uint8_t length)
                 data = (0xff >> (8 - ((col_start + length) % 8)));
             else
                 data = 0xff;
-        }
+//        }
     }
 }
 
@@ -331,6 +340,40 @@ void LCD_DrawHLine(uint8_t x, uint8_t y, uint8_t length)
     LCD_SetPos(start_line, start_column);
     for (; length; length--)
         LCD_SendData(data);
+}
+// Must not be on span of one line
+void LCD_DrawRectangleDiag(uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2){
+    unsigned a = abs(x1-x2);
+    unsigned b = abs(y1-y2);
+    
+   LCD_DrawHLine(x1,y1,a);
+   LCD_DrawHLine(x1,y2,a);
+   LCD_DrawVLine(x1,y1,b+1);
+   LCD_DrawVLine(x2,y1,b+1);
+   
+   unsigned D = 2*b-a;
+   unsigned y = y1;
+   
+   int x;
+   for(x = x1; x<x2; x++ ){
+       LCD_DrawVLine(x,y,1);
+       if (D>0) {
+           y = y+1;
+           D = D-2*a;
+       }
+       D = D + 2*b;
+   }
+}
+
+void LCD_DrawCentreRectangleDiag(){
+    uint8_t x0=32, y0=16, x1=96, y1=48;
+    unsigned a = abs(x1-x0);
+    unsigned b = abs(y1-y0);
+    
+   LCD_DrawHLine(x0,y0,a);
+   LCD_DrawHLine(x0,y1,a);
+   LCD_DrawVLine(x0,y0,b+1);
+   LCD_DrawVLine(x1,y0,b+1);
 }
 
 void LCD_SendByte(uint8_t byte)

@@ -2182,7 +2182,7 @@ LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-ea
                 0x08000000                g_pfnVectors
                 0x08000184                . = ALIGN (0x4)
 
-.text           0x08000184    0x11630
+.text           0x08000184    0x11780
                 0x08000184                . = ALIGN (0x4)
  *(.text)
  .text          0x08000184       0x54 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
@@ -3305,130 +3305,130 @@ LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-ea
                 0x0800e3f0                ethzero
  .rodata.data__data_json
                 0x0800e3f8       0x84 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
- .rodata.data__404_html
-                0x0800e47c      0x44c build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
  .rodata.data__index_html
-                0x0800e8c8      0x848 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
+                0x0800e47c      0x980 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
  .rodata.file__404_html
-                0x0800f110       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
-                0x0800f110                file__404_html
+                0x0800edfc       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
+                0x0800edfc                file__404_html
  .rodata.data__favicon_ico
-                0x0800f124     0x2444 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
+                0x0800ee10     0x2444 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
  .rodata.file__data_json
-                0x08011568       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
-                0x08011568                file__data_json
+                0x08011254       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
+                0x08011254                file__data_json
  .rodata.file__favicon_ico
-                0x0801157c       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
-                0x0801157c                file__favicon_ico
+                0x08011268       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
+                0x08011268                file__favicon_ico
  .rodata.file__index_html
-                0x08011590       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
-                0x08011590                file__index_html
+                0x0801127c       0x14 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
+                0x0801127c                file__index_html
+ .rodata.data__404_html
+                0x08011290      0x464 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/fs.o
  .rodata.str1.4
-                0x080115a4       0xbb build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd.o
+                0x080116f4       0xbb build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd.o
                                  0xcc (size before relaxing)
- *fill*         0x0801165f        0x1 
+ *fill*         0x080117af        0x1 
  .rodata.g_psDefaultFilenames
-                0x08011660       0x28 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd.o
-                0x08011660                g_psDefaultFilenames
+                0x080117b0       0x28 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd.o
+                0x080117b0                g_psDefaultFilenames
  .rodata.stIndexHandler
-                0x08011688        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd_cgi_ssi.o
-                0x08011688                stIndexHandler
+                0x080117d8        0x8 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd_cgi_ssi.o
+                0x080117d8                stIndexHandler
  .rodata.str1.4
                 0x00000000       0xbb build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/httpd_cgi_ssi.o
                                  0x10 (size before relaxing)
  .rodata.str1.4
-                0x08011690       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
+                0x080117e0       0x40 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o
                                  0x50 (size before relaxing)
  .rodata.str1.4
-                0x080116d0       0x16 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/netconf.o
+                0x08011820       0x16 build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/netconf.o
                                  0x18 (size before relaxing)
- *fill*         0x080116e6        0x2 
+ *fill*         0x08011836        0x2 
  .rodata.str1.4
-                0x080116e8       0x3b build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
+                0x08011838       0x3b build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/stm32f2xx_it.o
                                  0x40 (size before relaxing)
- *fill*         0x08011723        0x1 
+ *fill*         0x08011873        0x1 
  .rodata.str1.4
-                0x08011724        0x2 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                0x08011874        0x2 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x08011726        0x2 
+ *fill*         0x08011876        0x2 
  .rodata._global_impure_ptr
-                0x08011728        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
-                0x08011728                _global_impure_ptr
+                0x08011878        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-impure.o)
+                0x08011878                _global_impure_ptr
  .rodata.blanks.6687
-                0x0801172c       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-svfiprintf.o)
+                0x0801187c       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-svfiprintf.o)
  .rodata.str1.4
-                0x0801173c       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-svfiprintf.o)
+                0x0801188c       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-svfiprintf.o)
  .rodata.zeroes.6688
-                0x0801176c       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-svfiprintf.o)
+                0x080118bc       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-svfiprintf.o)
  .rodata.zeroes.6702
-                0x0801177c       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-vfiprintf.o)
+                0x080118cc       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-vfiprintf.o)
  .rodata.str1.4
                 0x00000000       0x30 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-vfiprintf.o)
  .rodata.blanks.6701
-                0x0801178c       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-vfiprintf.o)
+                0x080118dc       0x10 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-vfiprintf.o)
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0801179c        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .eh_frame      0x080118ec        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
  *(.init)
- .init          0x0801179c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
-                0x0801179c                _init
- .init          0x080117a0        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .init          0x080118ec        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x080118ec                _init
+ .init          0x080118f0        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
  *(.fini)
- .fini          0x080117a8        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
-                0x080117a8                _fini
- .fini          0x080117ac        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
-                0x080117b4                . = ALIGN (0x4)
-                0x080117b4                _etext = .
+ .fini          0x080118f8        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x080118f8                _fini
+ .fini          0x080118fc        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x08011904                . = ALIGN (0x4)
+                0x08011904                _etext = .
 
-.vfp11_veneer   0x080117b4        0x0
+.vfp11_veneer   0x08011904        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x080117b4        0x0
+.v4_bx          0x08011904        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x080117b4        0x0
+.iplt           0x08011904        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x080117b4        0x8
-                0x080117b4                __exidx_start = .
+.ARM            0x08011904        0x8
+                0x08011904                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x080117b4        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a(_divdi3.o)
- .ARM.exidx     0x080117bc        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x08011904        0x8 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0801190c        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x080117bc                __exidx_end = .
+                0x0801190c                __exidx_end = .
 
-.rel.dyn        0x080117bc        0x0
+.rel.dyn        0x0801190c        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.preinit_array  0x080117bc        0x0
-                0x080117bc                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0801190c        0x0
+                0x0801190c                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x080117bc                PROVIDE (__preinit_array_end, .)
+                0x0801190c                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x080117bc        0x8
-                0x080117bc                PROVIDE (__init_array_start, .)
+.init_array     0x0801190c        0x8
+                0x0801190c                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x080117bc        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
+                0x0801190c        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x080117c0        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
-                0x080117c4                PROVIDE (__init_array_end, .)
+ .init_array    0x08011910        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x08011914                PROVIDE (__init_array_end, .)
 
-.fini_array     0x080117c4        0x4
-                0x080117c4                PROVIDE (__fini_array_start, .)
+.fini_array     0x08011914        0x4
+                0x08011914                PROVIDE (__fini_array_start, .)
  *(.fini_array*)
- .fini_array    0x080117c4        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .fini_array    0x08011914        0x4 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x080117c8                PROVIDE (__fini_array_end, .)
-                0x080117c8                _sidata = .
+                0x08011918                PROVIDE (__fini_array_end, .)
+                0x08011918                _sidata = .
 
-.data           0x20000000      0x92c load address 0x080117c8
+.data           0x20000000      0x92c load address 0x08011918
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -3517,10 +3517,10 @@ LOAD c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-ea
                 0x2000092c                . = ALIGN (0x4)
                 0x2000092c                _edata = .
 
-.jcr            0x2000092c        0x0 load address 0x080120f4
+.jcr            0x2000092c        0x0 load address 0x08012244
  .jcr           0x2000092c        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.igot.plt       0x2000092c        0x0 load address 0x080120f4
+.igot.plt       0x2000092c        0x0 load address 0x08012244
  .igot.plt      0x00000000        0x0 c:/program files (x86)/scide-7.4.6/scide/cnd/arm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
                 0x2000092c                . = ALIGN (0x4)
 

@@ -48,6 +48,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/540162733/stm32f2xx_syscfg.o \
 	${OBJECTDIR}/_ext/540162733/stm32f2xx_tim.o \
 	${OBJECTDIR}/_ext/540162733/stm32f2xx_usart.o \
+	${OBJECTDIR}/_ext/860902683/lcd_framebuffer.o \
 	${OBJECTDIR}/_ext/860902683/lcd_st7565p.o \
 	${OBJECTDIR}/_ext/860902683/stm32_eval_spi_accel.o \
 	${OBJECTDIR}/_ext/1085738613/stm32_eval.o \
@@ -149,6 +150,11 @@ ${OBJECTDIR}/_ext/540162733/stm32f2xx_usart.o: ../../../../Libraries/STM32F2xx_S
 	${MKDIR} -p ${OBJECTDIR}/_ext/540162733
 	${RM} $@.d
 	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/540162733/stm32f2xx_usart.o ../../../../Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c
+
+${OBJECTDIR}/_ext/860902683/lcd_framebuffer.o: ../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/860902683
+	${RM} $@.d
+	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/860902683/lcd_framebuffer.o ../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.c
 
 ${OBJECTDIR}/_ext/860902683/lcd_st7565p.o: ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/860902683

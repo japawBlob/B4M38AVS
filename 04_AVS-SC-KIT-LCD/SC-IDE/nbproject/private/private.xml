@@ -7,7 +7,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/03_AVS-SC-KIT-ENCODER/src/main.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/STM32_EVAL/stm32_eval.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/04_AVS-SC-KIT-LCD/src/main.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_spi.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/STM32_EVAL/stm32_eval.h</file>
         </group>
     </open-files>
 </project-private>
