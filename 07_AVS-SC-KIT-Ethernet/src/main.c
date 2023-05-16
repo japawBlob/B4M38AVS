@@ -26,6 +26,7 @@
 #include "httpd.h"
 #include "serial_driver.h"
 #include <string.h>
+#include <stdlib.h>
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 #define SYSTEMTICK_PERIOD_MS  10
@@ -43,6 +44,9 @@ static void UART_Init(void);
 static void Button_Init(void);
 static void SysTick_Init(void);
 static void Application_Periodic_Handle(__IO uint32_t localtime);
+
+void InitADC(void);
+void InitDAC(void);
 
 /* Private functions ---------------------------------------------------------*/
 
@@ -69,6 +73,9 @@ int main(void) {
     iprintf("SC-KIT Demo\r\n");
 
     Button_Init();
+    
+    InitADC();
+    InitDAC();
 
     /* Initialize LCD and LEDs */
     LCD_LED_Init();
@@ -96,6 +103,20 @@ int main(void) {
     }
 }
 
+void updateLEDs(char userInput)
+{
+    int i;
+    for(i = 0; i < 8; i++){
+        STM_EVAL_LEDOff(i);
+    }
+    for(i = 0; i < 8; i++){
+        if( (userInput & 1) == 1){
+            STM_EVAL_LEDOn(i);
+        }
+        userInput = userInput >> 1;
+    }
+}
+
 /**
  * Handles parameters of index.html page.
  * @param iIndex index of the CGI within the ppcURLs array
@@ -113,10 +134,32 @@ const char *HandleIndexParameter(int iIndex, int iNumParams, char *pcParam[], ch
         if (!strncmp(pcParam[i], "text", 4)) {
             LCD_DisplayStringLineEx(Line7, pcValue[i], LCD_FLAG_FILL_LINE);
         }
+        if (!strncmp(pcParam[i], "bin", 3)) {
+            int num = (int)strtol(pcValue[i], NULL, 16);
+            if (0x00 <= num && num <= 0xFF) {
+                updateLEDs(num); 
+                char buff [100];
+                sprintf(buff, "LED display: %d", num);
+                LCD_DisplayStringLineEx(Line7, buff, LCD_FLAG_FILL_LINE);
+            } else {
+                LCD_DisplayStringLineEx(Line7, "LED value out of bounds", LCD_FLAG_FILL_LINE);
+            }
+            
+        }
+        if (!strncmp(pcParam[i], "dac", 3)) {
+            int num = (int)strtol(pcValue[i], NULL, 10);
+            DAC_SetChannel2Data(DAC_Align_12b_R, (uint16_t)num);
+//            uint16_t adc1 = ADC_GetConversionValue(ADC1);
+            char buff [100];
+            sprintf(buff, "DAC set to: %d", num);
+            LCD_DisplayStringLineEx(Line7, buff, LCD_FLAG_FILL_LINE);
+        }
     }
 
     return "/index.html";
 }
+
+
 
 /**
  * BTN_Handler : SSI handler for Buttons 
@@ -132,11 +175,14 @@ u16_t BTN_Handler(int iIndex, char *pcInsert, int iInsertLen) {
     
     if (iIndex == 0) {
         
-        i = siprintf(pcInsert, "{\"btn\":[%d,%d]}", !STM_EVAL_PBGetState(BUTTON_SW2), !STM_EVAL_PBGetState(BUTTON_SW1));
+        i = siprintf(pcInsert, "{\"btn\":[%d,%d, %d]}", !STM_EVAL_PBGetState(BUTTON_SW2), !STM_EVAL_PBGetState(BUTTON_SW1), ADC_GetConversionValue(ADC2));
+//        i = siprintf(pcInsert, "{\"btn\":[%d,%d, %d]}", !STM_EVAL_PBGetState(BUTTON_SW2), !STM_EVAL_PBGetState(BUTTON_SW1), ADC_GetConversionValue(ADC1));
+
         return i;
     }
     return 0;
 }
+
 
 /*******************************************************************************/
 
@@ -181,8 +227,8 @@ void Application_Periodic_Handle(__IO uint32_t localtime) {
 
     // evry 100 ms
     if (localtime - APPTimer >= 100) {
-        LedTask1();
-        LedTask2();
+        // LedTask1();
+        // LedTask2();
         APPTimer = localtime;
     }
 }
@@ -268,6 +314,104 @@ void SysTick_Init(void) {
     SysTick_Config(RCC_Clocks.HCLK_Frequency / 100);
 }
 
+void InitADC(void) {
 
+    /* ADC configuration */
+    GPIO_InitTypeDef GPIO_InitStructure;
+    ADC_InitTypeDef ADC_InitStructure;
+    ADC_CommonInitTypeDef ADC_CommonInitStructure;
+
+    /* Enable GPIO clocks */
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA | RCC_AHB1Periph_GPIOC, ENABLE);
+
+    /* ADC Peripheral clock enable */
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1 | RCC_APB2Periph_ADC2, ENABLE);
+
+    /* Configure ADC12 Channel3 pin as analog input */
+    GPIO_StructInit(&GPIO_InitStructure);
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;
+    GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
+
+    /* Configure ADC123 Channel10 pin as analog input */
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;
+    GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
+
+    /* Reset ADC */
+    ADC_DeInit();
+
+    ADC_CommonStructInit(&ADC_CommonInitStructure);
+    ADC_CommonInitStructure.ADC_Mode = ADC_Mode_Independent;
+    ADC_CommonInitStructure.ADC_Prescaler = ADC_Prescaler_Div2;
+    ADC_CommonInitStructure.ADC_DMAAccessMode = ADC_DMAAccessMode_Disabled;
+    ADC_CommonInitStructure.ADC_TwoSamplingDelay = ADC_TwoSamplingDelay_5Cycles;
+    ADC_CommonInit(&ADC_CommonInitStructure);
+
+    /* Configure the ADC1 */
+    ADC_StructInit(&ADC_InitStructure);
+    ADC_InitStructure.ADC_Resolution = ADC_Resolution_12b;
+    ADC_InitStructure.ADC_ScanConvMode = DISABLE;
+    ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;
+    ADC_InitStructure.ADC_ExternalTrigConvEdge = ADC_ExternalTrigConvEdge_None;
+    ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;
+    ADC_InitStructure.ADC_NbrOfConversion = 1;
+    ADC_Init(ADC1, &ADC_InitStructure);
+
+    /* Add channel 3 to ADC1 */
+    ADC_RegularChannelConfig(ADC1, ADC_Channel_3, 1, ADC_SampleTime_3Cycles);
+
+    /* Configure the ADC2 */
+    ADC_Init(ADC2, &ADC_InitStructure);
+
+    /* Add channel 10 to ADC2 */
+    ADC_RegularChannelConfig(ADC2, ADC_Channel_10, 1, ADC_SampleTime_3Cycles);
+
+    /* Enable ADC1 and ADC2 */
+    ADC_Cmd(ADC1, ENABLE);
+    ADC_Cmd(ADC2, ENABLE);
+    
+    ADC_SoftwareStartConv(ADC1);
+    ADC_SoftwareStartConv(ADC2);
+
+}
+
+/**
+ * Initialize DAC
+ */
+void InitDAC(void) {
+
+    /* DAC configuration */
+    GPIO_InitTypeDef GPIO_InitStructure;
+    DAC_InitTypeDef DAC_InitStructure;
+
+    /* DAC Pin clock enable */
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+
+    /* DAC Peripheral clock enable */
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_DAC, ENABLE);
+
+    /* DAC channel 2 (DAC_OUT2 = PA.5) configuration */
+    GPIO_StructInit(&GPIO_InitStructure);
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;
+    GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL;
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
+
+    /* Reset DAC */
+    DAC_DeInit();
+
+    /* DAC channel2 Configuration */
+    DAC_StructInit(&DAC_InitStructure);
+    DAC_InitStructure.DAC_Trigger = DAC_Trigger_None;
+    DAC_InitStructure.DAC_WaveGeneration = DAC_WaveGeneration_None;
+    DAC_InitStructure.DAC_OutputBuffer = DAC_OutputBuffer_Enable;
+    DAC_Init(DAC_Channel_2, &DAC_InitStructure);
+
+    /* Enable DAC channel2 */
+    DAC_Cmd(DAC_Channel_2, ENABLE);
+}
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

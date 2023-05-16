@@ -34,6 +34,7 @@ function s(txt) {
 	var obj = eval ("(" + txt + ")");
 	$("b1").style.backgroundColor=obj.btn[0]==1?"red":"green";
 	$("b2").style.backgroundColor=obj.btn[1]==1?"red":"green";
+	document.getElementById("adc").textContent=obj.btn[2];
 }
 
 l("data.json", s);
@@ -52,10 +53,20 @@ setInterval(function(){l("data.json", s)},500);
 <br clear="all">
 
 <form action="index.html">
-Text k zaslání na LCD: <input type="text" size="22" name="text" value="123">
+Text k zaslání na LCD: <input type="text" size="22" name="text">
+   <input type="submit" value="odeslat">
+</form>
+
+<p>Potenciometer value: <div id="adc" class="text">0</div></p>
+
+<form action="index.html">
+One byte hex value to be displayed on LEDs: <input type="text" size="22" name="bin">
+   <input type="submit" value="odeslat">
+</form>
+
+<form action="index.html">
+Set DAC value: <input type="text" size="22" name="dac">
    <input type="submit" value="odeslat">
 </form>
 
 </div>
-
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
