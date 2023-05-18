@@ -45,6 +45,7 @@ void GPIO_config()
 
     /* Enable the GPIO_LED Clock */
     RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE, ENABLE);
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
 
     /* Configure the GPIO_LED pin */
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12 | GPIO_Pin_13;
@@ -52,6 +53,12 @@ void GPIO_config()
     GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOE, &GPIO_InitStructure);
+
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+    GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
 }
 /*
 void SysTick_Handler(void)
@@ -61,12 +68,16 @@ void SysTick_Handler(void)
     word = word >> 1;
 }*/
 void TIM2_IRQHandler(){
-    static int blink_pattern [] = {1,0,0,0,1,0};
-    static unsigned i = 0;
+//    static int blink_pattern [] = {1,0,0,0,1,0};
+//    static unsigned i = 0;
+//    if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){
+//        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
+//        GPIO_WriteBit(GPIOE, GPIO_Pin_13, blink_pattern[i]);
+//        i = ++i %(sizeof(blink_pattern)/sizeof(int));
+//    }
     if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){
         TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-        GPIO_WriteBit(GPIOE, GPIO_Pin_13, blink_pattern[i]);
-        i = ++i %(sizeof(blink_pattern)/sizeof(int));
+        GPIO_ToggleBits(GPIOA, GPIO_Pin_0);
     }
 }
 
@@ -86,8 +97,8 @@ extern void init_timer_TIM2(){
     
     timer.TIM_CounterMode = TIM_CounterMode_Up;
     timer.TIM_ClockDivision = TIM_CKD_DIV1;
-    timer.TIM_Prescaler = 40000;
-    timer.TIM_Period = 500;
+    timer.TIM_Prescaler = 59;
+    timer.TIM_Period = 1000000;
     timer.TIM_RepetitionCounter = 0;
     TIM_TimeBaseInit(TIM2, &timer);
     TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
@@ -128,6 +139,12 @@ int main(void)
     GPIO_config();
     init_buttons();
     init_timer_TIM2();
+    
+    char g = RCC_GetSYSCLKSource();
+        
+    RCC_ClocksTypeDef blob;
+    RCC_GetClocksFreq(&blob);
+    
     
     int gpioC_14_counter = 0;  // For debounce
     int gpioC_15_counter = 0;  

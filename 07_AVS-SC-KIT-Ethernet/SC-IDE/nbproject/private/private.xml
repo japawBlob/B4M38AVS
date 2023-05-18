@@ -6,12 +6,6 @@
     </data>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/07_AVS-SC-KIT-Ethernet/src/httpd.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/07_AVS-SC-KIT-Ethernet/src/main.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/07_AVS-SC-KIT-Ethernet/src/httpd_cgi_ssi.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/07_AVS-SC-KIT-Ethernet/src/netconf.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/07_AVS-SC-KIT-Ethernet/src/stm32f2x7_eth_bsp.c</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
