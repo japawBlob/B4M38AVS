@@ -59,7 +59,9 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/513150005/sckit_debug.o \
 	${OBJECTDIR}/_ext/513150005/serial_driver.o \
 	${OBJECTDIR}/_ext/513150005/syscalls.o \
+	${OBJECTDIR}/_ext/1360937237/accelerometer.o \
 	${OBJECTDIR}/_ext/1360937237/dht11.o \
+	${OBJECTDIR}/_ext/1360937237/logger.o \
 	${OBJECTDIR}/_ext/1360937237/main.o \
 	${OBJECTDIR}/_ext/1360937237/stm32f2xx_it.o \
 	${OBJECTDIR}/_ext/1360937237/system_stm32f2xx.o \
@@ -210,10 +212,20 @@ ${OBJECTDIR}/_ext/513150005/syscalls.o: ../../../../Utilities/Third_Party/System
 	${RM} $@.d
 	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/513150005/syscalls.o ../../../../Utilities/Third_Party/System/syscalls.c
 
+${OBJECTDIR}/_ext/1360937237/accelerometer.o: ../src/accelerometer.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237
+	${RM} $@.d
+	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1360937237/accelerometer.o ../src/accelerometer.c
+
 ${OBJECTDIR}/_ext/1360937237/dht11.o: ../src/dht11.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237
 	${RM} $@.d
 	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1360937237/dht11.o ../src/dht11.c
+
+${OBJECTDIR}/_ext/1360937237/logger.o: ../src/logger.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237
+	${RM} $@.d
+	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1360937237/logger.o ../src/logger.c
 
 ${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237

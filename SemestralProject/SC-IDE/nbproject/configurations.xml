@@ -55,7 +55,9 @@
         <itemPath>../../../../Utilities/Third_Party/System/syscalls.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f5" displayName="User" projectFiles="true">
+        <itemPath>../inc/accelerometer.h</itemPath>
         <itemPath>../inc/dht11.h</itemPath>
+        <itemPath>../inc/logger.h</itemPath>
         <itemPath>../inc/stm32f2xx_it.h</itemPath>
       </logicalFolder>
     </logicalFolder>
@@ -103,7 +105,9 @@
         <itemPath>../../../../Utilities/Third_Party/System/syscalls.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="User" projectFiles="true">
+        <itemPath>../src/accelerometer.c</itemPath>
         <itemPath>../src/dht11.c</itemPath>
+        <itemPath>../src/logger.c</itemPath>
         <itemPath>../src/main.c</itemPath>
         <itemPath>../src/stm32f2xx_it.c</itemPath>
       </logicalFolder>
@@ -490,11 +494,19 @@
             tool="3"
             flavor2="0">
       </item>
+      <item path="../inc/accelerometer.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../inc/dht11.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../inc/logger.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../inc/stm32f2xx_it.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../src/accelerometer.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="../src/dht11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../src/logger.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="../src/main.c" ex="false" tool="0" flavor2="0">
       </item>

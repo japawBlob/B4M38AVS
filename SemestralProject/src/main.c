@@ -30,6 +30,8 @@
 #include "stm32_eval_i2c_ee.h"
 #include "dht11.h"
 #include "stm32f2xx_pwr.h"
+#include "accelerometer.h"
+#include "logger.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -38,8 +40,11 @@
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
 void delay(vu32 nCount);
+void init_IO();
 void Button_Init(void);
 void init_rtc();
+void init_accelerometer();
+void InitADC(void);
 /* Private functions ---------------------------------------------------------*/
 
 /**
@@ -58,12 +63,19 @@ static void used_functions(){
     // dht11
     setup_dht11();
     struct DHT11_response ret = read_DHT11();
+    uint8_t temperature = ret.integral_T;
+    uint8_t humidity = ret.integral_RH;
     
     // rtc
     //....
     
-    //RTC_WriteBackupRegister();
-    //RTC_ReadBackupRegister();
+//    RTC_WriteBackupRegister();
+//    RTC_ReadBackupRegister();
+    
+    RTC_DateTypeDef date;
+    RTC_GetDate(0, &date);
+    RTC_TimeTypeDef time;
+    RTC_GetTime(0, &time);
     
     // accelerometer
     //....
@@ -79,50 +91,183 @@ static void used_functions(){
 
 int main(void) {
     memset(frame_buffer,128*64,0);
-    
+    // sEE_WriteBuffer(0, 0x0, sizeof(size_t));
+    init_IO();
+    // set_number_of_records(0);
+    // uint16_t b = 0;
+    //sEE_WriteBuffer(&b, start_address, sizeof(uint16_t));
+
+    struct data_entry blob = {
+        4, 5, 6, 55
+    };  
+    append_mem_entry(blob);
+    iprintf("running\n");
+//    LCD_DisplayStringLine(Line0, "Hello.");
+//    LCD_DisplayStringLine(Line6, "huhuhu");  
+//    LCD_DisplayStringLine(Line6, "heheheh");
+    unsigned counter = 0;
+    uint16_t num = get_number_of_records();
+    struct data_entry * entries = get_entries();
+    int i;
+    iprintf("%d\n", get_number_of_records());
+    for(i=0; i<num; i++){
+        char buff [100];
+        sprintf(buff, "%d: %d  %d    %d    %d\n", i, entries[i].time_stamp, entries[i].temperature, entries[i].humidity, entries[i].vibrations);
+        iprintf("%s", buff);
+    }
+    iprintf("done\n");
+    struct data_entry buffrator [10];
+    uint16_t size = 10*sizeof(struct data_entry);
+    sEE_ReadBuffer(buffrator, start_address+sizeof(uint16_t), &size);
+    for(i=0; i<10; i++){
+        char buff [100];
+        sprintf(buff, "%d: %d  %d   %d    %d\n", i, buffrator[i].time_stamp, buffrator[i].temperature, buffrator[i].humidity, buffrator[i].vibrations);
+        iprintf("%s", buff);
+    }
+    return 0;
+//    
+//    RTC_DateTypeDef date;
+//    RTC_GetDate(0, &date);
+//    RTC_TimeTypeDef time;
+//    RTC_GetTime(0, &time);
+//    
+////    struct data_entry blob = {
+////        date, time, 0, 0, 0
+////    };    
+//    struct data_entry blob = {
+//        4, 5, 6, 7
+//    };  
+//    
+////    store_record_at_address(blob, 0xA0);
+////    iprintf("%u %d %u %u\n", blob.time_stamp, blob.temperature, blob.humidity, blob.vibrations);
+////    struct data_entry ret = get_record_at_address(0xA0);
+////    
+////    
+////    iprintf("%u %d %u %u\n", ret.time_stamp, ret.temperature, ret.humidity, ret.vibrations);
+//
+//    
+//    append_mem_entry(blob);
+//    blob.temperature = 11;
+//    blob.time_stamp += 1;
+//    sEE_WaitEepromStandbyState();
+//    append_mem_entry(blob);
+//    blob.temperature = 15;
+//    blob.humidity = 15;
+//    blob.time_stamp += 1;
+//    sEE_WaitEepromStandbyState();
+//    append_mem_entry(blob);
+//    sEE_WaitEepromStandbyState();
+//    append_mem_entry(blob);
+//    blob.temperature = 11;
+//    blob.time_stamp += 1;
+//    append_mem_entry(blob);
+//    blob.temperature = 11;
+//    blob.time_stamp += 1;
+//    append_mem_entry(blob);
+//    blob.temperature = 11;
+//    blob.time_stamp += 1;
+//    append_mem_entry(blob);
+//    blob.temperature = 11;
+//    blob.time_stamp += 1;
+//    size_t num = get_number_of_records();
+//    iprintf("%u\n", num);
+//    sEE_WaitEepromStandbyState();
+//    struct data_entry* entries = get_entries();
+//    int i = 0;
+//    for(i=0; i<num; i++){
+//        char buff [100];
+//        sprintf(buff, "%d: %d  %d    %d    %d\n", i, entries[i].time_stamp, entries[i].temperature, entries[i].humidity, entries[i].vibrations);
+//        iprintf("%s", buff);
+//    }
+//    // sEE_WriteBuffer(entries, 0xA0+sizeof(size_t), num*sizeof(struct data_entry));
+//    struct data_entry buffrator [10];
+//    
+//    struct data_entry first;
+//    uint16_t size_data = sizeof(struct data_entry);
+//    //sEE_WriteBuffer((char*)blob, 0xA0+sizeof(size_t), sizeof(struct data_entry));
+//    blob.vibrations = 69;
+//    sEE_WaitEepromStandbyState();
+//    write_mem_entry(blob, start_address+sizeof(uint16_t));
+//    append_mem_entry(blob);
+//    //sEE_ReadBuffer(buffrator, 0xA0, &size_data);
+//    //write_mem_entry(blob, 0xA0);
+//    sEE_WaitEepromStandbyState();
+//    num = get_number_of_records();
+//    uint16_t* stored_num;
+//    uint16_t stored_num_size = sizeof(uint16_t);
+//    sEE_ReadBuffer(stored_num, start_address, &stored_num_size);
+//    iprintf("%d %d done\n", num, stored_num);
+//    uint16_t size = num*sizeof(struct data_entry);
+//    sEE_ReadBuffer(buffrator, start_address+sizeof(uint16_t), &size);
+//    iprintf("%d %d %d done\n", size, num, stored_num);
+////    char buff [100];
+////    sprintf(buff, "%d: %d  %d   %d    %d\n", i, first.time_stamp, first.temperature, first.humidity, first.vibrations);
+////    iprintf("%s", buff);
+//    
+//    for(i=0; i<num; i++){
+//        char buff [100];
+//        sprintf(buff, "%d: %d  %d   %d    %d\n", i, buffrator[i].time_stamp, buffrator[i].temperature, buffrator[i].humidity, buffrator[i].vibrations);
+//        iprintf("%s", buff);
+//    }
+//    iprintf("donnnnne\n");
+//        sEE_ReadBuffer(buffrator, start_address+sizeof(uint16_t), &size);
+//    iprintf("done\n");
+////    char buff [100];
+////    sprintf(buff, "%d: %d  %d   %d    %d\n", i, first.time_stamp, first.temperature, first.humidity, first.vibrations);
+////    iprintf("%s", buff);
+//    
+//    for(i=0; i<num; i++){
+//        char buff [100];
+//        sprintf(buff, "%d: %d  %d   %d    %d\n", i, buffrator[i].time_stamp, buffrator[i].temperature, buffrator[i].humidity, buffrator[i].vibrations);
+//        iprintf("%s", buff);
+//    }
+//        iprintf("done\n");      
+    return 0;
+    while(1){
+        // Handle butttons
+        // Change scene
+        
+        // Handle Accelerometer
+        //      Sample
+        counter += sample_accelerometer();
+        
+        //Every second (or so)
+        if (counter >= 20){
+            /// Write temp
+            /// Write humidity
+            /// Write Seismic
+            /// Read time
+        }
+        // Handle period
+                // Resolve and clear accelerometer
+                // 
+                // Write to memory
+        
+//        ADC_RegularChannelConfig(ADC1, ADC_Channel_TempSensor, 1, ADC_SampleTime_480Cycles);
+//        ADC_SoftwareStartConv(ADC1);
+//        while (ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC) == RESET);
+
+        // Read the converted value from the ADC data register
+        iprintf("%u  %u\n", sizeof(struct data_entry), sizeof(int));
+        delay(0xFFFFFF);
+    }
+}
+
+void init_IO(){
     ComPort_Init(COM2); // J15 - UART3
     /* Configure stdin,  stdout, stderr */
     ComPort_ConfigStdio(COM2, COM2, COM2);
     Button_Init();
-    LCD_Init();
-    LCD_SetBacklight(100);
-    LCD_DisplayStringLine(Line0, "Hello.");
-    sEE_Init();
-    setup_dht11();
-    // memset(buf, 1, 50);
-    // sEE_WriteBuffer(buf, 0x200, 1);
-    LCD_DisplayStringLine(Line6, "huhuhu");  
-    sEE_ReadBuffer(buf, 0x200, 1);
-    iprintf("%x\n", buf[0]);
-    iprintf("%d\n", SystemCoreClock);
-    LCD_DisplayStringLine(Line6, "heheheh");
     setup_dht11();
     init_rtc();
-    
-    
-    
-    while(1){
-//        if (!STM_EVAL_PBGetState(BUTTON_SW1)) {
-//            memset(buf, 4, 50);
-//            sEE_WriteBuffer(buf, 0x200, 1);
-//        }   
-//        if (!STM_EVAL_PBGetState(BUTTON_SW2)) {
-//            memset(buf, 8, 50);
-//            sEE_WriteBuffer(buf, 0x200, 1);
-//        } 
-//        sEE_ReadBuffer(buf, 0x200, 1);
-        // iprintf("%x", buf[0]);
-
-        //struct DHT11_response ret = read_DHT11();
-        //iprintf("%d %d %d %d %d\n",ret.integral_RH, ret.decimal_RH, ret.integral_T, ret.decimal_RH, ret.checksum);
-        //delay(0xFFFFFF);
-        struct DHT11_response ret = read_DHT11();
-        iprintf("READ_2: %d %d %d %d %d\n",ret.integral_RH, ret.decimal_RH, ret.integral_T, ret.decimal_RH, ret.checksum);
-        delay(0xFFFFFF);
-        RTC_TimeTypeDef time;
-        RTC_GetTime(0, &time);
-        iprintf("%d %d %d\n",time.RTC_Seconds, time.RTC_Minutes, time.RTC_Hours);
-    }
+    sEE_Init();
+    LCD_Init();
+    LCD_SetBacklight(100);
+    LCD_Clear();
+    delay(0xFFFFF);
+    LCD_Clear();
+    init_accelerometer();
+    init_logger();
 }
 
 void init_rtc(){
@@ -135,8 +280,7 @@ void init_rtc(){
     RCC_LSICmd(ENABLE);
     
     while (RCC_GetFlagStatus(RCC_FLAG_LSIRDY) == RESET) {}
-//    RCC_LSICmd(ENABLE);
-//    RCC_HSEConfig(RCC_HSE_ON);
+    
     RCC_RTCCLKConfig(RCC_RTCCLKSource_LSI);
     RCC_RTCCLKCmd(ENABLE);
     RTC_WaitForSynchro();
@@ -146,17 +290,6 @@ void init_rtc(){
     RTC_StructInit(&rtc_init);
     unsigned ret = RTC_Init(&rtc_init);
     PWR_BackupAccessCmd(DISABLE);
-    RTC_DateTypeDef date;
-    RTC_GetDate(0, &date);
-    RTC_TimeTypeDef time;
-    RTC_GetTime(0, &time);
-    
-    iprintf("%d %d %d %d\n", date.RTC_WeekDay, date.RTC_Date, date.RTC_Month, date.RTC_Year);
-    iprintf("||ret=%d||%d %d %d\n",ret,time.RTC_Seconds, time.RTC_Minutes, time.RTC_Hours);
-    
-    delay(0x2FFFFF);
-    iprintf("%d %d %d\n",time.RTC_Seconds, time.RTC_Minutes, time.RTC_Hours);
-    
 }
 
 void Button_Init(void) {
@@ -177,3 +310,45 @@ void delay(vu32 nCount) {
     for (; nCount != 0; nCount--);
 }
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
+
+void init_internal_temperature(void) {
+
+    
+    /* ADC configuration */
+    ADC_InitTypeDef ADC_InitStructure;
+//    ADC_CommonInitTypeDef ADC_CommonInitStructure;
+    
+    /* ADC Peripheral clock enable */
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE);
+    
+    ADC_DeInit();
+    
+//    ADC_CommonStructInit(&ADC_CommonInitStructure);
+//    ADC_CommonInitStructure.ADC_Mode = ADC_Mode_Independent;
+//    ADC_CommonInitStructure.ADC_Prescaler = ADC_Prescaler_Div2;
+//    ADC_CommonInitStructure.ADC_DMAAccessMode = ADC_DMAAccessMode_Disabled;
+//    ADC_CommonInitStructure.ADC_TwoSamplingDelay = ADC_TwoSamplingDelay_5Cycles;
+//    ADC_CommonInit(&ADC_CommonInitStructure);
+
+    /* Configure the ADC1 */
+    ADC_StructInit(&ADC_InitStructure);
+    ADC_InitStructure.ADC_Resolution = ADC_Resolution_12b;
+    ADC_InitStructure.ADC_ScanConvMode = DISABLE;
+    ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;
+    ADC_InitStructure.ADC_ExternalTrigConvEdge = ADC_ExternalTrigConvEdge_None;
+    ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;
+    ADC_InitStructure.ADC_NbrOfConversion = 1;
+    ADC_Init(ADC1, &ADC_InitStructure);
+    
+    ADC_TempSensorVrefintCmd(ENABLE);
+    ADC_Cmd(ADC1, ENABLE);
+    
+    
+    ADC_RegularChannelConfig(ADC1, ADC_Channel_TempSensor, 1, ADC_SampleTime_480Cycles);
+    ADC_SoftwareStartConv(ADC1);
+    
+    uint16_t adc_val = ADC_GetConversionValue(ADC1);
+
+    float adc_float = ((float)adc_val);
+    float temp = (((float)adc_float-760.0f)/2.5f)+25.0f;
+}

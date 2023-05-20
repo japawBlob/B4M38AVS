@@ -7,11 +7,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/inc/dht11.h</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/inc/accelerometer.h</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/inc/stm32f2xx_it.h</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/main.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/stm32f2xx_it.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/inc/logger.h</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/system_stm32f2xx.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/dht11.c</file>
             <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_pwr.c</file>
             <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/SC-IDE/startup_stm32f2xx.s</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/main.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/accelerometer.c</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/logger.c</file>
             <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rtc.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/SemestralProject/src/system_stm32f2xx.c</file>
         </group>
     </open-files>
 </project-private>

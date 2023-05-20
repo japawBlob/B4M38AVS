@@ -1,5 +1,6 @@
-build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
- ../src/main.c ../../../../Utilities/STM32_EVAL/stm32_eval.h \
+build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/logger.o: \
+ ../src/logger.c ../inc/logger.h \
+ ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h \
  ../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h \
  ../../../../Libraries/CMSIS/Include/core_cm3.h \
  ../../../../Libraries/CMSIS/Include/core_cmInstr.h \
@@ -24,7 +25,6 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_pwr.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rcc.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h \
- ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_syscfg.h \
@@ -33,14 +33,14 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_wwdg.h \
  ../../../../Utilities/Third_Party/System/stm32fxxx_uid.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h \
- ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h \
- ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h \
- ../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h \
- ../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h \
  ../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h \
- ../inc/dht11.h ../inc/accelerometer.h ../inc/logger.h
+ ../../../../Utilities/STM32_EVAL/stm32_eval.h \
+ ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h \
+ ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h
 
-../../../../Utilities/STM32_EVAL/stm32_eval.h:
+../inc/logger.h:
+
+../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h:
 
 ../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h:
 
@@ -90,8 +90,6 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
 
 ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rng.h:
 
-../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_rtc.h:
-
 ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_sdio.h:
 
 ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_spi.h:
@@ -108,18 +106,10 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
 
 ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h:
 
+../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h:
+
+../../../../Utilities/STM32_EVAL/stm32_eval.h:
+
 ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h:
 
 ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h:
-
-../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h:
-
-../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h:
-
-../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h:
-
-../inc/dht11.h:
-
-../inc/accelerometer.h:
-
-../inc/logger.h:

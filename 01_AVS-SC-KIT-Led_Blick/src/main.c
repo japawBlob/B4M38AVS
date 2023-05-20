@@ -68,17 +68,17 @@ void SysTick_Handler(void)
     word = word >> 1;
 }*/
 void TIM2_IRQHandler(){
-//    static int blink_pattern [] = {1,0,0,0,1,0};
-//    static unsigned i = 0;
-//    if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){
-//        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-//        GPIO_WriteBit(GPIOE, GPIO_Pin_13, blink_pattern[i]);
-//        i = ++i %(sizeof(blink_pattern)/sizeof(int));
-//    }
+    static int blink_pattern [] = {1,0,0,0,1,0};
+    static unsigned i = 0;
     if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){
         TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-        GPIO_ToggleBits(GPIOA, GPIO_Pin_0);
+        GPIO_WriteBit(GPIOE, GPIO_Pin_13, blink_pattern[i]);
+        i = ++i %(sizeof(blink_pattern)/sizeof(int));
     }
+//    if(TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET){
+//        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
+//        GPIO_ToggleBits(GPIOA, GPIO_Pin_0);
+//    }
 }
 
 extern void init_timer_TIM2(){
