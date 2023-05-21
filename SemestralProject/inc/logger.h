@@ -19,6 +19,8 @@ struct data_entry {
     uint8_t vibrations;
 };
 
+extern struct data_entry current_entry;
+
 void init_logger();
 
 void append_mem_entry(struct data_entry);
@@ -35,5 +37,6 @@ struct data_entry get_record_at_address(uint16_t address);
 
 void write_mem_entry(struct data_entry de, uint16_t address);
 
+void send_data();
 
 #endif

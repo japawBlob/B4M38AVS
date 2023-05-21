@@ -8,7 +8,7 @@ static void set_dht11_pin(uint8_t mode){
     GPIO_InitTypeDef GPIO_InitStructure;
     GPIO_StructInit(&GPIO_InitStructure);
     if (mode == INPUT) {
-        RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+        RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 
         GPIO_InitStructure.GPIO_Pin = DHT11_PIN;
         GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
@@ -18,7 +18,7 @@ static void set_dht11_pin(uint8_t mode){
         GPIO_Init(DHT11_GPIO, &GPIO_InitStructure);
     }
     if (mode == OUTPUT) {
-        RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+        RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 
         GPIO_InitStructure.GPIO_Pin = DHT11_PIN;
         GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
@@ -146,15 +146,14 @@ static struct DHT11_response read_DHT11_2(){
        ret.checksum = ret.checksum << 1;
     }
     
-    if(ret.decimal_RH+ret.decimal_T+ret.integral_RH+ret.integral_T != ret.checksum) {
-        
-    }
+    
     
     
     return ret;
 }
 
 struct DHT11_response read_DHT11(){
+
     uint8_t bits[5];
     int ch;
     for (ch=0; ch< 5; ch++) bits[ch] = 0;
@@ -177,7 +176,7 @@ struct DHT11_response read_DHT11(){
     
     if( wait_for_response(SET) == NO_RESPONSE ){
         __enable_irq();
-        ret.checksum = 1;
+        ret.checksum = 10;
         return ret;
     }
     
@@ -227,6 +226,9 @@ struct DHT11_response read_DHT11(){
     DHT11_temperature = bits[2];
     DHT11_humidity = bits[0];
 
+    if(ret.decimal_RH+ret.decimal_T+ret.integral_RH+ret.integral_T != ret.checksum) {
+        
+    }
      
     return ret;
 }

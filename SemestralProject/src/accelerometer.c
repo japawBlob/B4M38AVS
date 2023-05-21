@@ -9,12 +9,19 @@ void init_accelerometer(){
     b |= 0x20;
     //Set to be big endian
     sACCEL_WriteReg(0x21, b);
-    // init_timer_with_interrupt();
+    init_timer_with_interrupt();
 }
 
-void TIM3_IRQHandler(){
-    if(TIM_GetITStatus(TIM3, TIM_IT_Update) != RESET){
-        TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
+void clear_accelerometer(){
+    accelerometer_state.current_vibration=0x0;
+    accelerometer_state.min=0xffff;
+    accelerometer_state.max=0x0;
+    accelerometer_state.sample_flag=0x0;
+}
+
+void TIM5_IRQHandler(){
+    if(TIM_GetITStatus(TIM5, TIM_IT_Update) != RESET){
+        TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
         accelerometer_state.sample_flag = 1;
     }
 }
@@ -23,7 +30,7 @@ uint8_t sample_accelerometer (){
     if (accelerometer_state.sample_flag == 1){
         accelerometer_state.sample_flag = 0;
 
-        uint16_t current_val = read_accelerotmeter_X();
+        uint16_t current_val = read_accelerotmeter_Y();
 
         if (current_val > accelerometer_state.max) {
             accelerometer_state.max = current_val;
@@ -38,12 +45,12 @@ uint8_t sample_accelerometer (){
 }
 
 void init_timer_with_interrupt(){
-    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM5, ENABLE);
     
     //Enabeling timer interrupt
     NVIC_InitTypeDef blob;
-    blob.NVIC_IRQChannel = TIM3_IRQn;
-    blob.NVIC_IRQChannelPreemptionPriority = 0;
+    blob.NVIC_IRQChannel = TIM5_IRQn;
+    blob.NVIC_IRQChannelPreemptionPriority = 8;
     blob.NVIC_IRQChannelSubPriority = 0;
     blob.NVIC_IRQChannelCmd = ENABLE;
     NVIC_Init(&blob);
@@ -56,11 +63,11 @@ void init_timer_with_interrupt(){
     timer.TIM_Prescaler = 59;
     timer.TIM_Period = 1000*50;
     timer.TIM_RepetitionCounter = 0;
-    TIM_TimeBaseInit(TIM3, &timer);
-    TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
+    TIM_TimeBaseInit(TIM5, &timer);
+    TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
   
-    TIM_Cmd(TIM3, ENABLE);
-    TIM_ITConfig(TIM3, TIM_IT_Update, ENABLE);
+    TIM_Cmd(TIM5, ENABLE);
+    TIM_ITConfig(TIM5, TIM_IT_Update, ENABLE);
 }
 
 uint16_t read_accelerotmeter_Y(){

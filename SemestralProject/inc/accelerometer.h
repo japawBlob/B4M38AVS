@@ -14,6 +14,8 @@ extern struct accelerometer accelerometer_state;
 
 void init_accelerometer();
 
+void clear_accelerometer();
+
 uint16_t read_accelerotmeter_Y();
 
 uint16_t read_accelerotmeter_X();

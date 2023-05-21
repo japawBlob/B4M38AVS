@@ -63,6 +63,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/1360937237/dht11.o \
 	${OBJECTDIR}/_ext/1360937237/logger.o \
 	${OBJECTDIR}/_ext/1360937237/main.o \
+	${OBJECTDIR}/_ext/1360937237/scene_handler.o \
 	${OBJECTDIR}/_ext/1360937237/stm32f2xx_it.o \
 	${OBJECTDIR}/_ext/1360937237/system_stm32f2xx.o \
 	${OBJECTDIR}/startup_stm32f2xx.o
@@ -231,6 +232,11 @@ ${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237
 	${RM} $@.d
 	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c
+
+${OBJECTDIR}/_ext/1360937237/scene_handler.o: ../src/scene_handler.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237
+	${RM} $@.d
+	$(COMPILE.c) -Wall -DSTM32F2XX -DUSE_SCKIT_EVAL -DUSE_STDPERIPH_DRIVER -I../inc -I../../../../Libraries/CMSIS/Include -I../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include -I../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc -I../../../../Utilities/STM32_EVAL -I../../../../Utilities/STM32_EVAL/Common -I../../../../Utilities/STM32_EVAL/SCKIT_EVAL -I../../../../Utilities/Third_Party/System -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1360937237/scene_handler.o ../src/scene_handler.c
 
 ${OBJECTDIR}/_ext/1360937237/stm32f2xx_it.o: ../src/stm32f2xx_it.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1360937237

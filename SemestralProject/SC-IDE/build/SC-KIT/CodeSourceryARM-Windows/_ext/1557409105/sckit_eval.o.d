@@ -1,5 +1,7 @@
-build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
- ../src/main.c ../../../../Utilities/STM32_EVAL/stm32_eval.h \
+build/SC-KIT/CodeSourceryARM-Windows/_ext/1557409105/sckit_eval.o: \
+ ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.c \
+ ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h \
+ ../../../../Utilities/STM32_EVAL/stm32_eval.h \
  ../../../../Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h \
  ../../../../Libraries/CMSIS/Include/core_cm3.h \
  ../../../../Libraries/CMSIS/Include/core_cmInstr.h \
@@ -34,12 +36,9 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
  ../../../../Utilities/Third_Party/System/stm32fxxx_uid.h \
  ../../../../Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h \
  ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h \
- ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h \
- ../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h \
- ../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h \
- ../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h \
- ../inc/dht11.h ../inc/accelerometer.h ../inc/logger.h \
- ../inc/scene_handler.h ../inc/logger.h
+ ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h
+
+../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h:
 
 ../../../../Utilities/STM32_EVAL/stm32_eval.h:
 
@@ -112,19 +111,3 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
 ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h:
 
 ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h:
-
-../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h:
-
-../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h:
-
-../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h:
-
-../inc/dht11.h:
-
-../inc/accelerometer.h:
-
-../inc/logger.h:
-
-../inc/scene_handler.h:
-
-../inc/logger.h:
