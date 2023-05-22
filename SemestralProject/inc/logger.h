@@ -5,10 +5,10 @@
 #include "stm32_eval_i2c_ee.h"
 #include <stdlib.h>
 #include "stm32_eval.h"
+#include "accelerometer.h"
 
 #define start_address 0xB0
-
-enum {SEISMIC_NONE, SEISMIC_LOW, SEISMIC_MEDIUM, SEISMIC_HIGH};
+#define RECORDS_MAX_NUM 300
 
 struct data_entry {
     // RTC_DateTypeDef date;

@@ -11,10 +11,26 @@ void set_home_hub(){
     char buff [100];
     sprintf(buff, "Temp: %d C", current_entry.temperature);
     LCD_DisplayStringLineEx(Line2, buff, 0);
-    sprintf(buff, "Humidity: %d%", current_entry.humidity);
+    sprintf(buff, "Humidity: %d %%", current_entry.humidity);
     LCD_DisplayStringLineEx(Line3, buff, 0);
-    sprintf(buff, "Seismic: %d", current_entry.vibrations);
+    char * seismic;
+    if(current_entry.vibrations==SEISMIC_NONE){
+        seismic = "NONE";
+    } else if (current_entry.vibrations==SEISMIC_LOW){
+        seismic = "LOW";
+    } else if (current_entry.vibrations==SEISMIC_MEDIUM){
+        seismic = "MID";
+    } else if (current_entry.vibrations==SEISMIC_HIGH){
+        seismic = "HIGH";
+    }
+    sprintf(buff, "Seismic: %s", seismic);
     LCD_DisplayStringLineEx(Line4, buff, 0);
+    if(get_number_of_records() >= RECORDS_MAX_NUM){
+        LCD_DisplayStringLineEx(Line5, "MEMORY FULL!", 0);
+    } else {
+        sprintf(buff, "Free space: %d", RECORDS_MAX_NUM-get_number_of_records());
+        LCD_DisplayStringLineEx(Line6, buff, 0);
+    }
     LCD_DisplayStringLineEx(Line7, "Thermostat | Data", 0);
     current_scene = HOME_HUB;
 }
@@ -41,7 +57,17 @@ void set_data(){
     for (i = 0; i<len; i++){
         uint8_t in = i+current_line;
         uint8_t buf [100];
-        sprintf(buf, "%4d %4d %5d %5d", entries[in].time_stamp, entries[in].temperature, entries[in].humidity, entries[in].vibrations);
+        char * seismic;
+        if(entries[in].vibrations==SEISMIC_NONE){
+            seismic = "NONE";
+        } else if (entries[in].vibrations==SEISMIC_LOW){
+            seismic = "LOW";
+        } else if (entries[in].vibrations==SEISMIC_MEDIUM){
+            seismic = "MID";
+        } else if (entries[in].vibrations==SEISMIC_HIGH){
+            seismic = "HIGH";
+        }
+        sprintf(buf, "%4d %4d %5d %5s", entries[in].time_stamp, entries[in].temperature, entries[in].humidity, seismic);
         LCD_DisplayStringLineEx(i+2, buf, 0);
     }
 //    char buff [100];

@@ -17,7 +17,7 @@ static inline void delay(vu32 nCount) {
 
 void init_logger(){
     // set_number_of_records(0);
-    entries = (struct data_entry*)malloc(300*sizeof(struct data_entry));
+    entries = (struct data_entry*)malloc(RECORDS_MAX_NUM*sizeof(struct data_entry));
     uint16_t size = sizeof(number_of_records);
     sEE_ReadBuffer(&number_of_records, start_address, &size);
     delay(0xf);
@@ -34,13 +34,16 @@ void init_logger(){
 
 
 void append_mem_entry(struct data_entry de){
+    current_entry = de;
+    if(number_of_records >= RECORDS_MAX_NUM){
+        return ;
+    }
     entries[number_of_records++] = de;
     sEE_WaitEepromStandbyState();
     sEE_WriteBuffer(&number_of_records, start_address, sizeof(uint16_t));
     sEE_WaitEepromStandbyState();
     sEE_WriteBuffer(&de, next_address, sizeof(struct data_entry));
     next_address += sizeof(struct data_entry);
-    current_entry = de;
 }
 
 void write_mem_entry(struct data_entry de, uint16_t address){
@@ -93,7 +96,19 @@ void send_data(){
     int i;
     iprintf("timestamp,temp,humidity,seismic\n\r");
     for (i=0;i<number_of_records;i++){ 
-        iprintf("%d,%d,%d,%d\n\r", entries[i].time_stamp, entries[i].temperature, entries[i].humidity, entries[i].vibrations);
+        char buf [100];
+        char * seismic;
+        if(entries[i].vibrations==SEISMIC_NONE){
+            seismic = "NONE";
+        } else if (entries[i].vibrations==SEISMIC_LOW){
+            seismic = "LOW";
+        } else if (entries[i].vibrations==SEISMIC_MEDIUM){
+            seismic = "MEDIUM";
+        } else if (entries[i].vibrations==SEISMIC_HIGH){
+            seismic = "HIGH";
+        }
+        sprintf(buf, "%d,%d,%d,%s\n\r", entries[i].time_stamp, entries[i].temperature, entries[i].humidity, seismic);
+        iprintf("%s", buf);
     }
     USART_SendData(USART3, 0x03);
 }

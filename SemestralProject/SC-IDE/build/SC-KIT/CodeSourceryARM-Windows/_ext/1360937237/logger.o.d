@@ -36,7 +36,9 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/logger.o: \
  ../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h \
  ../../../../Utilities/STM32_EVAL/stm32_eval.h \
  ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h \
- ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h
+ ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h \
+ ../inc/accelerometer.h \
+ ../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h
 
 ../inc/logger.h:
 
@@ -113,3 +115,7 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/logger.o: \
 ../../../../Utilities/STM32_EVAL/SCKIT_EVAL/sckit_eval.h:
 
 ../../../../Utilities/STM32_EVAL/Common/lcd_st7565p.h:
+
+../inc/accelerometer.h:
+
+../../../../Utilities/STM32_EVAL/Common/stm32_eval_spi_accel.h:

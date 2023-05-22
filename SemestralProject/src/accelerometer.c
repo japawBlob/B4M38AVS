@@ -38,7 +38,16 @@ uint8_t sample_accelerometer (){
         if (current_val < accelerometer_state.min){
             accelerometer_state.min = current_val;
         }
-        // accelerometer_state.current_vibration = max-min;
+        uint16_t delta = accelerometer_state.max-accelerometer_state.min;
+        if (0 <= delta && delta < SEISMIC_LOW_TRESHOLD){
+            accelerometer_state.current_vibration = SEISMIC_NONE;
+        } else if (SEISMIC_LOW_TRESHOLD <= delta && delta < SEISMIC_MEDIUM_TRESHOLD){
+            accelerometer_state.current_vibration = SEISMIC_LOW;
+        } else if (SEISMIC_MEDIUM_TRESHOLD <= delta && delta < SEISMIC_HIGH_TRESHOLD) {
+            accelerometer_state.current_vibration = SEISMIC_MEDIUM;
+        } else {
+            accelerometer_state.current_vibration = SEISMIC_HIGH;
+        }
         return 1;
     }
     return 0;

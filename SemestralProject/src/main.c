@@ -148,18 +148,14 @@ int main(void) {
             /// Write humidity
             new_entry.humidity = resp.integral_RH;
             /// Write Seismic
-            new_entry.vibrations = accelerometer_state.max-accelerometer_state.min;
+            new_entry.vibrations = accelerometer_state.current_vibration;
+            // iprintf("%u %u %u\n\r", accelerometer_state.max, accelerometer_state.min, new_entry.vibrations);
             clear_accelerometer();
             /// Read time
             RTC_TimeTypeDef time;
             RTC_GetTime(0, &time);
             new_entry.time_stamp = time.RTC_Seconds;
             append_mem_entry(new_entry);
-//            char buff [100];
-//            sprintf(buff, "%d: %d  %d    %d    %d\n", report_count, new_entry.time_stamp, new_entry.temperature, new_entry.humidity, new_entry.vibrations);
-//            iprintf("%s", buff);
-//            //struct DHT11_response resp = read_DHT11();
-//            iprintf(" %d %d %d %d %d\n ", resp.integral_T, resp.integral_RH, resp.decimal_T, resp.decimal_RH, resp.checksum);
             counter = 0;
             update_scene();
             report_count++;
@@ -270,7 +266,7 @@ void init_IO(){
     ComPort_Init(COM2); // J15 - UART3
     /* Configure stdin,  stdout, stderr */
     ComPort_ConfigStdio(COM2, COM2, COM2);
-//    Button_Init();
+    Button_Init();
     setup_dht11();
     init_rtc();
     sEE_Init();

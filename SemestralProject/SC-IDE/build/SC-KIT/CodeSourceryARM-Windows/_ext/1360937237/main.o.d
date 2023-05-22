@@ -39,7 +39,7 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
  ../../../../Utilities/STM32_EVAL/Common/lcd_framebuffer.h \
  ../../../../Utilities/STM32_EVAL/Common/stm32_eval_i2c_ee.h \
  ../inc/dht11.h ../inc/accelerometer.h ../inc/logger.h \
- ../inc/scene_handler.h ../inc/logger.h
+ ../inc/accelerometer.h ../inc/scene_handler.h ../inc/logger.h
 
 ../../../../Utilities/STM32_EVAL/stm32_eval.h:
 
@@ -124,6 +124,8 @@ build/SC-KIT/CodeSourceryARM-Windows/_ext/1360937237/main.o: \
 ../inc/accelerometer.h:
 
 ../inc/logger.h:
+
+../inc/accelerometer.h:
 
 ../inc/scene_handler.h:
 
