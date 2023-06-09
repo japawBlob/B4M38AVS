@@ -295,7 +295,6 @@ void init_rtc(){
     RCC_RTCCLKCmd(ENABLE);
     RTC_WaitForSynchro();
     
-    
     RTC_InitTypeDef rtc_init;
     RTC_StructInit(&rtc_init);
     unsigned ret = RTC_Init(&rtc_init);
