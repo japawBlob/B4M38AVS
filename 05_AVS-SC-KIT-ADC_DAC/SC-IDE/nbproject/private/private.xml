@@ -7,17 +7,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/STM32_EVAL/stm32_eval.h</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/STM32_EVAL/Common/lcd_st7565p.h</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/inc/misc.h</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/STM32_EVAL/Common/lcd_st7565p.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/STM32_EVAL/stm32_eval.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Utilities/Third_Party/System/serial_driver.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_usart.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_rcc.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_gpio.c</file>
-            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Libraries/STM32F2xx_StdPeriph_Driver/inc/stm32f2xx_gpio.h</file>
+            <file>file:/C:/Users/JakubJíra/Codes/SC-KIT-AVS/Project/embeddedApps/05_AVS-SC-KIT-ADC_DAC%20-%20Copy/src/main.c</file>
         </group>
     </open-files>
 </project-private>
